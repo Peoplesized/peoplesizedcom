@@ -20,3 +20,6 @@ github_username:  onlyjsmith
 markdown: kramdown
 exclude: 
   - _data
+
+prose:
+  rooturl: _posts
