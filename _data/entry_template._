@@ -1,0 +1,11 @@
+---
+id: <%= id %>
+createdAt: <%= createdAt %>
+updatedAt: <%= updatedAt %>
+title: <%= title %>
+imageId: <%= imageId %>
+website: <%= website %>
+status: <%= status %>
+dateCompleted: <%= dateCompleted %>
+---
+<%= description %>

@@ -1,0 +1,233 @@
+[
+  {
+    "id": "LAImNDVMeiIkIMciM204E",
+    "createdAt": "2014-12-17T14:31:48.248Z",
+    "updatedAt": "2014-12-18T09:03:01.911Z",
+    "title": "BIP Indicators explorer",
+    "imageId": "6nCCdiXJ9m2qWqaoISgsue",
+    "website": "http://www.bipindicators.net/globalindicators",
+    "status": "Live",
+    "dateCompleted": "2012-04-10",
+    "description": "Simplifies the exploration and discovery of a hierarchical set of indicators with 3 different views of the same data: a grid, conceptual framework and a table.\n\nBuilt at UNEP-WCMC as an embeddable component using Backbone and Rails, and presented in an iframe on existing DotNetNuke site."
+  },
+  {
+    "id": "3aO3yRcUwg2ki46MqsEomQ",
+    "createdAt": "2014-12-17T14:26:21.514Z",
+    "updatedAt": "2014-12-18T09:36:02.763Z",
+    "title": "ApesMapper",
+    "imageId": "78YCsmM5hYg0usEYM0cKkg",
+    "website": "http://apesportal.eva.mpg.de/status/tools/dashboard",
+    "status": "Live",
+    "dateCompleted": "2012-03-15",
+    "description": "Tool for technical experts to visualise and explore data relating to ape populations. Offers 3 views of the\ndata (graph, map and table), filterable and updating in realtime. Built with simple static datasource, using\nBackboneJS.\n\nBuilt for UNEP and Arcus Foundation. Project management role."
+  },
+  {
+    "id": "209pM1Gr76awuKseICsuCi",
+    "createdAt": "2014-12-17T12:33:27.794Z",
+    "updatedAt": "2014-12-18T14:49:56.806Z",
+    "title": "National Reporting Toolkit (NRT)",
+    "imageId": "3Jwig9lJo4u4keUGa80mek",
+    "website": "http://ghana.nrt.io",
+    "status": "Live",
+    "dateCompleted": "2014-04-30",
+    "description": "A BackboneJS and NodeJS based proof-of-concept, built to demonstrate and test a new approach to online reporting of environmental data. It was conceived as a component to support development a larger [UNEP-Live](http://uneplive.unep.org) initiative, which aims to simplify reporting on global environment. \n\nThe [official deployed version](http://nrt-beta.ead.ae) is available only to staff within the Environment Agency of Abu Dhabi (not open to public). However, numerous (12+) country- specific versions were also created as part of a capacity building and user-needs gathering exercise, and these are publicly available, for example for [Ghana](http://ghana.nrt.io)."
+  },
+  {
+    "id": "2pI4gAELbKECsQQS0E4w4k",
+    "createdAt": "2014-12-17T14:29:51.398Z",
+    "updatedAt": "2014-12-18T14:45:31.691Z",
+    "title": "Aichi Passport",
+    "imageId": "2RU1c4qgB2mi4ceYGmMYC6",
+    "website": "https://itunes.apple.com/app/id564224957",
+    "status": "Live",
+    "dateCompleted": "2012-12-10",
+    "description": "A mobile app available on iOS and Android platforms, which provides annual updates for the global biodiversity indicators brought together by the BIP to monitor progress towards the Strategic Plan for Biodiversity 2011-2020 and the underlying Aichi Biodiversity Targets.\n\nBuilt for UNEP, Biodiversity Indicators Partnership (BIP). Project management and product concept development roles."
+  },
+  {
+    "id": "C6QlJ4iCvmUGmaeq0muGs",
+    "createdAt": "2014-12-17T11:50:44.539Z",
+    "updatedAt": "2014-12-18T14:41:11.677Z",
+    "title": "GradeMyPark",
+    "imageId": "4oyWUSjVZYuAcSIykUeSIS",
+    "website": "https://grademypark.herokuapp.com",
+    "status": "Concept",
+    "dateCompleted": "2011-11-14",
+    "description": "Concept and prototype for a way to gather quantitative data on protected area condition from people who visit. This is from 2011, but the prototype is still up - but plenty of it breaks!\n\nUses the API from [Protected Planet](http://protectedplanet.net)\n\nRails 2.3(?), OAuth to signup with Twitter/Facebook\n"
+  },
+  {
+    "id": "6u6iGUY0coeeCQY2mWoeoO",
+    "createdAt": "2014-12-18T15:56:21.276Z",
+    "updatedAt": "2014-12-18T15:56:21.276Z",
+    "title": "Wildspot",
+    "imageId": "2y4GiVQfNymYSU8QGE04SC",
+    "website": "http://www.gowildspot.com",
+    "status": "Live",
+    "dateCompleted": "2014-08-07",
+    "description": "A platform to create value from safari tourism sightings of wildlife. Consists of a mobile app for iOS platform, and a website to share view shared sightings. There is also a prototype dashboard to view the analytical data gathered."
+  },
+  {
+    "id": "8TMW0uaaEEgkiW2IuSowk",
+    "createdAt": "2014-12-17T14:45:40.977Z",
+    "updatedAt": "2014-12-19T09:52:09.881Z",
+    "title": "Writers Block",
+    "imageId": "2ZDQOwcvGwaKaaqCyGeoWy",
+    "website": null,
+    "status": "Concept",
+    "dateCompleted": "2014-03-12",
+    "description": "Poll-based tool for blog authors to engage with their users, and find out the most popular topics to write about. Allows for voting and suggestion of topics. For readers, no accounts or login are required. "
+  },
+  {
+    "id": "5H70x695UQk8qieA6AiQ2Y",
+    "createdAt": "2014-12-12T11:03:25.007Z",
+    "updatedAt": "2014-12-19T09:54:24.857Z",
+    "title": "Unlinear timer",
+    "imageId": "4JBruOcxpYs0AcuOwWGMi0",
+    "website": null,
+    "status": "In development",
+    "dateCompleted": null,
+    "description": "It's a simple timer that helps you get to the end meetings and appointments on time, and having achieved what you want. It gives you a series of alarms at irregular, but predefined intervals, to help keep you conscious of the passing of time.\n\nWorks best with periods from 5 minutes to a few hours.\n\nBuilt with [RubyMotion](http://www.rubymotion.com)"
+  },
+  {
+    "id": "1rW4J8k1KYayMUq4aGOYya",
+    "createdAt": "2015-01-04T08:22:54.822Z",
+    "updatedAt": "2015-01-04T10:08:17.742Z",
+    "title": "Maboundary",
+    "imageId": "5IAsrTaHK0o86mu8a4CkUw",
+    "website": "http://maboundary.herokuapp.com/?token=demo&usemap=true",
+    "status": "Concept",
+    "dateCompleted": "2014-11-16",
+    "description": "Designed for countries where good cadastral (land tenure) information doesn't exist, maybe as a result of land redistribution policies. Without good information on who owns the land, it's very risky for investors and others to engage due to the likelihood of legal challenges, etc.\n\nMaBoundary is a first rough prototype of a solution to this problem. It uses smartphone GPS to track where the user walks, so they can trace the outline of their plot and begin to make a formal claim. It's designed to run in the web browser of the simplest smartphones.\n\nThere's also a rough admin section, where you can review the collected boundaries, view them on a map, and also see the areas of conflicting claims.\n\nTo try the application out without needing to walk around, use [this version](http://maboundary.herokuapp.com/?token=demo&usemap=true). It just adds a special `usemap=true` code in the address - this makes it easier to test and demo. Instead of walking, you move the map with your finger and pressing 'mark' will use the centre-point of the map as the marker.\n\nWorked with @th3james and @deciob and others at Ecohack 2014"
+  },
+  {
+    "id": "5RADSR7rUIOKuiQcI8KI2o",
+    "createdAt": "2014-12-18T11:29:10.988Z",
+    "updatedAt": "2015-01-06T14:12:52.504Z",
+    "title": "Extractives partnership management",
+    "imageId": "2P0DcisItqAyGsEE6AQUwE",
+    "website": "http://www.csbi.org.uk",
+    "status": "Live",
+    "dateCompleted": "2015-12-31",
+    "description": "Jessica manages the Cross-Sector Biodiversity Initiative (CSBI), a partnership between IPIECA (the global oil and gas industry association for environmental and social issues), the International Council on Mining and Metals (ICMM) and the Equator Principles Association. CSBI exists to develop and share good practices on biodiversity and ecosystem services in the extractive industries.\n\nWorking closely with leading companies such as Shell, BP, JP Morgan Chase, ExxonMobil, Citi and Anglo American, Jessica's role entails secretariat management, technical support and day-to-day running of the CSBI and its member-led working groups. "
+  },
+  {
+    "id": "2Fi2GAANv2awcAOuE0KaEG",
+    "createdAt": "2014-12-12T11:02:32.709Z",
+    "updatedAt": "2015-01-06T14:33:45.326Z",
+    "title": "GEF developers toolkit",
+    "imageId": "1lfz3ZN4cIoAGqS4QiEks6",
+    "website": "http://www.gefdevkit.org",
+    "status": "Live",
+    "dateCompleted": "2014-07-01",
+    "description": "A simple and free set of resources for people developing projects for the [Global Environment Facility](http://thegef.org). Walks you through the basics, gives an overview of the workflow and common steps, and we provide annotated templates for each of the major documents you would need to produce for a compliant and approvable project. \n\nBuilt with NodeJS using simple Jade and Markdown templates. Documents all hosted on Google Drive."
+  },
+  {
+    "id": "10nGH9NIrCg0a0AOUKeWgk",
+    "createdAt": "2015-01-05T15:03:04.068Z",
+    "updatedAt": "2015-03-03T11:11:21.580Z",
+    "title": "GEF project development W. Africa ($7m)",
+    "imageId": "3FtiOSX1Qcuk8WEiE0gSYo",
+    "website": "http://bit.ly/1jUQb2r",
+    "status": "Complete",
+    "dateCompleted": "2014-04-18",
+    "description": "Coordinated the Project Document and CEO endorsement request development for a $7m Ecosystem-based Adaptation project, the first such project to access funds from GEF's Least Developed Countries Fund. \n\nOn behalf of UNDP and the Government of Burkina Faso, Jessica worked in French and English with a drafting team comprised of an international ecosystem specialist and 5 national technical consultants, providing technical guidance to field studies, drafting sections, and addressing feedback. The result was a coherent and compliant document, approved with remarkably positive feedback, in a new area for the Fund. "
+  },
+  {
+    "id": "2whqI8mUsYGgK6wGEoaCOW",
+    "createdAt": "2014-12-18T12:02:52.019Z",
+    "updatedAt": "2015-03-03T11:11:37.074Z",
+    "title": "CBD capacity building",
+    "imageId": "1aB2abZ7isUOagIumqCOQy",
+    "website": "http://www.cbd.int",
+    "status": "Live",
+    "dateCompleted": "2015-01-31",
+    "description": "Led a consultancy supporting the Convention on Biological Diversity (CBD) to deliver high-priority capacity for biodiversity management using innovative and remote (online) approaches. She managed a worldwide team of sub-contractors and specialist experts, and initiated partnerships with UN agencies and other entities to support delivery of the events, as well as delivering a number of the events and products herself. "
+  },
+  {
+    "id": "1zR4kjVo9KaiukSQ024IOu",
+    "createdAt": "2015-01-05T15:44:41.360Z",
+    "updatedAt": "2015-03-03T11:11:08.106Z",
+    "title": "Conservation financing options W. Africa",
+    "imageId": "2vvR9FV3rSGOqOsEEaGeow",
+    "website": "http://bit.ly/1Ag6FKg",
+    "status": "Complete",
+    "dateCompleted": "2013-12-31",
+    "description": "Conducted a review of the possible and most feasible conservation financing mechanisms for a consultancy to the UNEP GEF PARCC West Africa project. Findings published as 'Managing and financing protected areas to adapt to climate change: A rapid review of options' (available in English and French)."
+  },
+  {
+    "id": "16gSTtNqg0uUSs4AQ2gSgE",
+    "createdAt": "2015-01-05T15:25:07.614Z",
+    "updatedAt": "2015-03-03T11:10:41.269Z",
+    "title": "GEF development advice ($2m)",
+    "imageId": "4ZF3N8LrAISQMYoCiY2wia",
+    "website": "http://iucn.org",
+    "status": "In development",
+    "dateCompleted": "2014-10-17",
+    "description": "Commissioned to advise the development of IUCN's first project as a GEF Implementing Agency, focused on empowering communities to lead responses to climate change in 3 diverse countries. "
+  },
+  {
+    "id": "39vMWieuNymOk4gkcCS26u",
+    "createdAt": "2015-01-05T15:41:20.749Z",
+    "updatedAt": "2015-03-03T11:47:44.402Z",
+    "title": "CBD policy support",
+    "imageId": "Em3WMugKESIy6AA0GyeiK",
+    "website": "http://www.cbd.int/development",
+    "status": "Complete",
+    "dateCompleted": "2014-02-28",
+    "description": "Commissioned to provide technical services for the Second Meeting of the Expert Group on Biodiversity for Poverty Eradication and Development (Chennai, India, December 2013). \n\nHaving participated in first meeting of this group on behalf of the UNEP Division of Environmental Law and Conventions, Jessica's role as a consultant was providing policy and technical guidance, including drafting issue papers, presentations and recommendations for delegates. The process has resulted in international norms around biodiversity, poverty and development mainstreaming and e.g. COP Decision XII/5: Biodiversity for poverty eradication and sustainable development. \n\n\n\n(Photo credit: Didier Babin)"
+  },
+  {
+    "id": "2W8BnWhEjKY40SGqm6oUKi",
+    "createdAt": "2015-01-05T15:12:05.220Z",
+    "updatedAt": "2015-03-03T11:47:13.104Z",
+    "title": "Mainstreaming project (GEF, $5m)",
+    "imageId": "2919mzi9ask44s4S0u04Ki",
+    "website": "http://bit.ly/1zOibYf",
+    "status": "In development",
+    "dateCompleted": "2015-07-25",
+    "description": "Stage 1: Brought on to advise and guide the development of a Project Identification Form (PIF) agreeable to all partners, in a compressed timeframe. Through quick and effective facilitation and re-drafting, the PIF was approved with positive secretariat feedback and STAP consent to proceed. \n\nStage 2: Now advising the development of the Project Document and CEO endorsement request, bridging state-of-the-art in biodiversity mainstreaming with the needs of 3 participating countries in southern, East and West Africa. \n\n"
+  },
+  {
+    "id": "2WvVJ5IqrmM8UauWA0ygis",
+    "createdAt": "2015-03-03T11:39:17.654Z",
+    "updatedAt": "2015-03-03T11:48:19.315Z",
+    "title": "Madagascar GEF support ($3.9M)",
+    "imageId": "4CUq4KtCakw4gKWUcqEm0m",
+    "website": "http://bit.ly/1KcpCTO",
+    "status": "In development",
+    "dateCompleted": "2015-07-27",
+    "description": "Enabling UNEP and the Government of Madagascar to develop a fully-compliant project document (including tracking tools) and CEO endorsement request for a $3.9M grant to establish new protected areas (PAs). Project carried out in French. \n\nMadagascar is a Least Developed Country with Human Development Index of 155 (of 187). The ultimate project objective is that the system of new PAs is effective, adequately represents key ecosystems (especially mangroves), supports good management, and delivers benefits for local people. "
+  },
+  {
+    "id": "3hVuONVhLqc2a4iMiQ4yO6",
+    "createdAt": "2015-03-03T11:10:02.127Z",
+    "updatedAt": "2015-03-03T11:45:05.031Z",
+    "title": "Georgia GEF support",
+    "imageId": "7LsNFh1AlO0ycO2KmSCYiW",
+    "website": "http://bit.ly/1GLFw1Z",
+    "status": "In development",
+    "dateCompleted": "2015-04-30",
+    "description": "Supporting UNEP and the Government of Georgia to submit a full-compliant Medium-Sized project (<$1M) request to GEF in the Land Degradation focal area. \n\nGeorgia is a lower-middle income country in the Caucasus region. The project's objective is to establish a strong framework for Sustainable Land Management at national policy level and demonstrate economically viable land management practices by rural communities at demonstration sites."
+  },
+  {
+    "id": "3xPFEcCJ3issK4QYYsc4k0",
+    "createdAt": "2015-04-22T09:42:15.849Z",
+    "updatedAt": "2015-04-22T09:42:15.849Z",
+    "title": "gdoc.me - shorter URLs",
+    "imageId": "3nLH9AIKvuQkAga4oOk068",
+    "website": "https://chrome.google.com/webstore/detail/gdocme-just-shorter-urls/ggagmkibmgpkogppdkkdeojcmokhmdnh",
+    "status": "Live",
+    "dateCompleted": "2014-02-19",
+    "description": "Chrome extension to shorten any URL, but designed to work best with Google Docs. It extracts the document's title to make it easier to share and refer to multiple \n\nTry this example: http://gdoc.me/gdocme-test\n\nFree, from the Chrome Extension store."
+  },
+  {
+    "id": "3mLDTQUnzqsCyGGUsYCS8S",
+    "createdAt": "2015-04-22T09:24:24.885Z",
+    "updatedAt": "2015-05-14T14:14:18.029Z",
+    "title": "UNDP South-South Cooperation: data and mapping website",
+    "imageId": "65OiVYstz2y2YYUUkswCSc",
+    "website": "http://stage.undp-ssc-mapping.org/",
+    "status": "In development",
+    "dateCompleted": "2015-04-17",
+    "description": "Testing version deployed, currently in the final stages of development. \n\nThe site makes it easier for users to find and explore information around UNDP's support for South-South (SSC) and Triangular Cooperation (TrC) - more information about this work [here](http://www.undp.org/ssc).\n\nBuilt with [Backbone](http://backbonejs.org) and hosted on [Github pages](https://pages.github.com) (via [Jekyll](http://jekyllrb.com)), it is easy for the editors/administrators to keep the data current using [Prose](http://prose.io) and built-in management functions.\n\nAs a backup hosting option, we used [Netlify](https://www.netlify.com), with a simple drag-drop upload of the site, making it available [here](https://ssc.netlify.com).\n\nFinally, the awesome folks at [BrowserStack](https://www.browserstack.com) provided a free account for viewing and debugging multiple devices and operating systems.\n\n[Source code](https://github.com/undp/ssc)"
+  }
+]
