@@ -1,15 +1,62 @@
 ---
 layout: default
 ---
-<div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+<div id='main' class='main'>
+  <section class='page-title section dark'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-9'>
+          <header class='section-header content-header'>
+            <h1 class='title'>
+              {{ page.title }}
+            </h1>
+          </header>
+        </div>
+        <div class='col-27'></div>
+      </div>
+    </div>
+  </section>
+  <section class='section light' id='main-content'>
+    <div class='container'>
+      <div class='section-content row'>
+        <div class='col-1' id='primary'>
+          <article class='single-project'>
+            <div class='row'>
+              <div class='col-9'>
+                <div class='project-images'>
+                  <img src="/images/{{ page.imageUrl }}">
+                </div>
+              </div>
+              <div class='col-27'>
+                <div class='project-summary'>
+                  <p>
+                    {{ page.content | markdownify }}
+                  </p>
+                </div>
+                <div class='project-details'>
+                  <header class='content-header v3'></header>
+                  <ul class='unstyled'>
+                    <li>
+                      <i class='fa fa-toggle-on'></i>
+                      <strong>Status</strong>:
+                      {{ page.status }}
+                    </li>
+                    {% if page.dateCompleted %}
+                      <li>
+                        <i class="fa fa-calendar"></i>
+                        <strong>Completed</strong>: {{ page.dateCompleted }}
+                      </li>
+                    {% endif %}
+                  </ul>
+                  {% if page.website %}
+                    <a href="{{page.website}}" class='button primary medium fullwidth'>See project</a>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
 </div>

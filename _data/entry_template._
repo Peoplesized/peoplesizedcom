@@ -7,5 +7,6 @@ imageId: <%= imageId %>
 website: <%= website %>
 status: <%= status %>
 dateCompleted: <%= dateCompleted %>
+imageUrl: <%= imageUrl %>
 ---
 <%= description %>
