@@ -4,8 +4,6 @@ image_account : peoplesizedcom/
 permalink: /:year/:title.html
 exclude:
   - node_modules
-gems:
-  - jekyll-coffeescript
 title: Peoplesized
 email: hello@peoplesized.com
 description: > # this means to ignore newlines until "baseurl:"
