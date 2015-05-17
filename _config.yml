@@ -4,8 +4,6 @@ image_account : peoplesizedcom/
 permalink: /:year/:title.html
 exclude:
   - node_modules
-  - gulpfile.coffee
-  - package.json
 gems:
   - jekyll-coffeescript
 title: Peoplesized
