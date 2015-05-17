@@ -2,6 +2,8 @@ image_root_url: http://res.cloudinary.com/ppls/image/upload/
 image_account : peoplesizedcom/
 
 permalink: /:year/:title.html
+gems:
+  - jekyll-coffeescript
 exclude:
   - node_modules
 title: Peoplesized
