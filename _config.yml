@@ -4,6 +4,7 @@ image_account : peoplesizedcom/
 permalink: /:year/:title.html
 gems:
   - jekyll-coffeescript
+  - jekyll-sitemap
 exclude:
   - node_modules
 title: Peoplesized
@@ -17,7 +18,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 
 
 url: "http://www.peoplesized.com" # the base hostname & protocol for your site
-github_username:  onlyjsmith
 # Build settings
 markdown: kramdown
 exclude: 
