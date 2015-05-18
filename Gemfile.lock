@@ -47,6 +47,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (= 3.0.0.pre.beta4)
+  jekyll
   jekyll-coffeescript
   jekyll-sitemap
