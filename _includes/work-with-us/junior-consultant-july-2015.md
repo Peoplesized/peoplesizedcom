@@ -32,11 +32,4 @@ If you're interested, email [work-with-us@peoplesized.com](mailto:work-with-us@p
 - We'd also like to know if you're still studying, and how you heard about the position
 - A short CV or résumé (1 to 2 pages)
 
-
-
-
-
-
-
-
 Phone interviews are planned for 18-19 June, with the placement confirmed for a 2 July start date. 
