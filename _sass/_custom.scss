@@ -142,15 +142,9 @@ mark {
     text-overflow: ellipsis;
 }
 .flash-bar {
-    display: none;
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px){
-    .flash-bar {
-        display: inherit;
-          height: 20px;
-          background: rgb(195, 195, 143);
-          padding: 10px;
-          text-align: center;
-    }
+    display: inherit;
+    height: 20px;
+    background: rgb(195, 195, 143);
+    padding: 10px;
+    text-align: center;
 }
