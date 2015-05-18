@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<div id="main" class='main'>
+  <section class="page-title section dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-9">
+          <header class='section-header content-header'>
+            <h1 class='title'>
+              Want to work with us?
+            </h1>
+            <p class="subtitle lead">
+              Feel free to <a href='mailto:hello@peoplesized.com'>ask</a>  anything.
+            </p>
+          </header>
+        </div>
+        <div class="col-27"></div>
+      </div>
+    </div>
+  </section>
+  <section id="main-content" class='section light'>
+    <div class="container">
+      <div class="section-content row">
+        <div class='col-18'>
+          <img src="{{ site.image_root_url }}w_700,c_fill/{{ site.image_account }}0030_JabLtzJl8bc_ojshnm.jpg" alt='flight'>
+        </div>
+        <div class='col-18'>
+          <div class="work-with-us row">
+          {% capture position %}{% include work-with-us/junior-consultant-july-2015.md %}{% endcapture %}
+          {{ position | markdownify }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+              
