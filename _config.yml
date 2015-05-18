@@ -11,7 +11,11 @@ exclude:
 title: Peoplesized
 email: hello@peoplesized.com
 description: Peoplesized build and manage good things for the environment and social development.
-
+keywords: 
+  - environment
+  - social development
+  - technology
+  - software
 baseurl: "" # the subpath of your site, e.g. /blog/
 
 
