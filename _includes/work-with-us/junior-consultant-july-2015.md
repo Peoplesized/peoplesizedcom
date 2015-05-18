@@ -20,16 +20,20 @@ We are looking for a great junior consultant to join us during July-September 20
 
 ### What you should expect
 
-You'll gain top-flight exposure to the international environment and development sector and the workings of a lean, dynamic company with a well-established client base. You'd be working under the supervision of [Jessica Smith](https://uk.linkedin.com/pub/jessica-smith/5/584/3b3).
+- You'll gain top-flight exposure to the international environment and development sector and the workings of a lean, dynamic company with a well-established client base. 
+- You'd be working under the supervision of [Jessica Smith](https://uk.linkedin.com/pub/jessica-smith/5/584/3b3).
+- You'll be working on contracts for United Nations agencies (UNDP, UNEP) and with emerging market / developing country governments.
+- Day-to-day you can expect to provide technical support, carry out desk-based research, and prepare briefings, documents, presentations.
+- No tea-making expected.
 
-The role will involve technical support, desk-based research, and preparing briefings and documents on contracts for United Nations agencies (UNDP, UNEP) and with emerging market / developing country governments.
+### How to let us know you're interested...
 
-## How to let us know you're interested...
-
-If you're interested, email [work-with-us@peoplesized.com](mailto:work-with-us@peoplesized.com) by _Monday 8 June_ with:
+If you're interested, email [work-with-us@peoplesized.com](https://github.com/Peoplesized/peoplesizedcom/edit/stage/_includes/work-with-us/junior-consultant-july-2015.md) by _Monday 8 June_ with:
 
 - Just enough information to convince us that you're the right person to talk to (you can include the normal bits about your interest in the role, etc).
+- Include a short CV or résumé (1 to 2 pages)
 - We'd also like to know if you're still studying, and how you heard about the position
-- A short CV or résumé (1 to 2 pages)
 
-Phone interviews are planned for 18-19 June, with the placement confirmed for a 2 July start date..
+Phone interviews are planned for 18-19 June, with the placement confirmed for a 2 July start date.
+
+In the meantime, [drop us a line](https://github.com/Peoplesized/peoplesizedcom/edit/stage/_includes/work-with-us/junior-consultant-july-2015.md) if there's anything else you want to ask or find out.
