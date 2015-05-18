@@ -16,7 +16,7 @@ We are looking for a great junior consultant to join us during July-September 20
 - You love the topics we work on, and are looking to build your career
 - You can work in English. Advanced language skills in French, Spanish, or Arabic would be a major advantage.
 - Your research, writing and number skills are top-quality
-- We're based in Montreal, Canada for the start of the internship, and near Cambridge, UK from September - you'll need to be available during most of the office hours for either of those timezones
+- We're based in Montreal, Canada for the start of the assignment, and near Cambridge, UK from September - you'll need to be available during most of the office hours for either of those timezones
 
 ### What you should expect
 
@@ -30,7 +30,7 @@ We are looking for a great junior consultant to join us during July-September 20
 
 If you're interested, email [work-with-us@peoplesized.com](https://github.com/Peoplesized/peoplesizedcom/edit/stage/_includes/work-with-us/junior-consultant-july-2015.md) by _Monday 8 June_ with:
 
-- Just enough information to convince us that you're the right person to talk to (you can include the normal bits about your interest in the role, etc).
+- A cover letter with just enough information to convince us that you're the right person to talk to
 - Include a short CV or résumé (1 to 2 pages)
 - We'd also like to know if you're still studying, and how you heard about the position
 
