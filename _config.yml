@@ -4,6 +4,7 @@ image_account : peoplesizedcom/
 host: 0.0.0.0
 permalink: /:year/:title.html
 gems:
+  - jekyll-coffeescript
   - jekyll-sitemap
 exclude:
   - node_modules
