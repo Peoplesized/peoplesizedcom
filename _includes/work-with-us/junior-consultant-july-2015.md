@@ -28,7 +28,7 @@ We are looking for a great junior consultant to join us during July-September 20
 
 ### How to let us know you're interested...
 
-If you're interested, email [work-with-us@peoplesized.com](https://github.com/Peoplesized/peoplesizedcom/edit/stage/_includes/work-with-us/junior-consultant-july-2015.md) by _Monday 8 June_ with:
+If you're interested, email [work-with-us@peoplesized.com](mailto:work-with-us@peoplesized.com) by _Monday 8 June_ with:
 
 - A cover letter with just enough information to convince us that you're the right person to talk to
 - Include a short CV or résumé (1 to 2 pages)
@@ -36,4 +36,4 @@ If you're interested, email [work-with-us@peoplesized.com](https://github.com/Pe
 
 Phone interviews are planned for 18-19 June, with the placement confirmed for a 2 July start date.
 
-In the meantime, [drop us a line](https://github.com/Peoplesized/peoplesizedcom/edit/stage/_includes/work-with-us/junior-consultant-july-2015.md) if there's anything else you want to ask or find out.
+In the meantime, [drop us a line](mailto:work-with-us@peoplesized.com) if there's anything else you want to ask or find out.
