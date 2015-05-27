@@ -2,6 +2,8 @@
 # Junior international environment and development consultant
 _July to September 2015, home-based, flexible location_
 
+<strong style="color: #EC9800;">Deadline Monday 8 June</strong>
+
 We are looking for a great junior consultant to join us during July-September 2015, to work on
 
 - Biodiversity - access and benefit sharing / Nagoya Protocol implementation, protected areas (establishment, connectivity, financing)
