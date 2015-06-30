@@ -385,7 +385,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{
 .middle:before{
     content: '';
     display: inline-block;
-    height: 100%; 
+    height: 100%;
     vertical-align: middle;
 }
 .middle > div{
@@ -492,7 +492,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{
 }
 .section.section-map .map{
     position: absolute !important;
-    top: 0; left: 0; 
+    top: 0; left: 0;
     width: 100%;
     height: 100%;
     z-index: 0
@@ -521,7 +521,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover{
 
 }
 .section.dark{
-    background-color: #202020;
+    background-color: #282727;
     color: #A2A5A7;
 }
 .section.dark h1,
@@ -766,7 +766,7 @@ figure{
 }
 .fitmedia iframe,
 .fitmedia object,
-.fitmedia embed{ 
+.fitmedia embed{
     position: absolute;
     top: 0; left: 0;
     width: 100%;
@@ -929,9 +929,9 @@ select{
 /*
  * Buttons
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-button, 
-input[type="submit"], 
-input[type="button"], 
+button,
+input[type="submit"],
+input[type="button"],
 input[type="reset"],
 .button{
     background-color: #FFFFFF;
@@ -956,16 +956,16 @@ input[type="reset"],
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
-form button, 
-form input[type="submit"], 
-form input[type="button"], 
+form button,
+form input[type="submit"],
+form input[type="button"],
 form input[type="reset"],
 form .button{
     margin: 0;
 }
-button:hover, 
-input[type="submit"]:hover, 
-input[type="button"]:hover, 
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
 input[type="reset"]:hover,
 .button:hover{
     background-color: #F1F2F2;
@@ -1000,26 +1000,26 @@ a.button:focus,
     text-decoration: none;
     outline: none;
 }
-button[disabled], 
-input[type="submit"][disabled], 
-input[type="button"][disabled], 
-input[type="reset"][disabled], 
-a.button[disabled], 
+button[disabled],
+input[type="submit"][disabled],
+input[type="button"][disabled],
+input[type="reset"][disabled],
+a.button[disabled],
 .button[disabled],
-a.button.disabled, 
+a.button.disabled,
 .button.disabled{
     background-color: #F1F2F2;
     filter: Alpha(Opacity=50);
     opacity: 0.5;
     cursor: not-allowed;
 }
-button[disabled]:active, 
-input[type="submit"][disabled]:active, 
-input[type="button"][disabled]:active, 
-input[type="reset"][disabled]:active, 
-a.button[disabled]:active, 
+button[disabled]:active,
+input[type="submit"][disabled]:active,
+input[type="button"][disabled]:active,
+input[type="reset"][disabled]:active,
+a.button[disabled]:active,
 .button[disabled]:active,
-a.button.disabled:active, 
+a.button.disabled:active,
 .button.disabled:active{
     -webkit-box-shadow: none;
        -moz-box-shadow: none;
@@ -1456,7 +1456,7 @@ a.button.disabled:active,
 .nav ul,
 .nav *{
     list-style: none;
-    margin: 0; 
+    margin: 0;
     padding: 0;
 }
 .nav a{
@@ -1524,28 +1524,28 @@ a.button.disabled:active,
 /*
  * Clearing
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.container:before, 
+.container:before,
 .container:after,
-.clearfix:before, 
+.clearfix:before,
 .clearfix:after,
-.row:before, 
+.row:before,
 .row:after,
-.clear:before, 
+.clear:before,
 .clear:after,
 .section:before,
 .section:after,
-hr:before, 
-hr:after, 
-[class*="separator"]:before, 
-[class*="separator"]:after, 
-.nav:before, 
-.nav ul:after, 
-.nav:before, 
+hr:before,
+hr:after,
+[class*="separator"]:before,
+[class*="separator"]:after,
+.nav:before,
+.nav ul:after,
+.nav:before,
 .nav ul:after{
     display: table;
     content: '';
 }
-.container:after, 
+.container:after,
 .clearfix:after,
 .row:after,
 .clear:after,
