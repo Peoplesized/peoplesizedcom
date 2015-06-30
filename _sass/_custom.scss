@@ -1,24 +1,11 @@
 /*
- * Custom section background
- * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.section-bg-1{
-    background-image: image-url('/images/24378125.jpg');
-    background-size: cover;
-}
-.section-bg-gray,
-.page-title{
-    background-color: #F7F7F7;
-}
-
-
-/*
  * Custom color scheme
  * primary color: #3498DB;
  * secondary color: #3486BC;
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 /* Primary color */
-a, 
+a,
 .icon.primary,
 #site-nav > ul > li:not(.over) > a:hover,
 .light .entry-date,
@@ -30,7 +17,7 @@ a,
 .pricing .plan-price{
     color: #3498DB;
 }
- 
+
 .content-header.v3:after,
 .button.primary,
 .icon.circle.primary,
@@ -108,17 +95,18 @@ a:active, a:hover,
 #mobile-menu-trigger {
     background-color: #DBDBDB;
 }
-// 
+//
 .section.light {
     background-color: #fff;
 }
 
 .section {
-    background-color: #F0F0F0 
+    background-color: #F0F0F0
 }
 
 .section#section-services {
-    background-image: url('images/1337697.jpg');
+    background-image: url('images/header.jpg');
+    background-size: cover;
 }
 .section#section-about-us {
     background-color: rgb(45, 45, 45);
