@@ -1,6 +1,9 @@
 ---
 ---
 ready = ->
+  if (!Modernizr.svg)
+    $("img.logo").attr("src", "/css/images/word.jpg")
+
   theme = window.casanova
   theme.fixedHeader()
   theme.menu()

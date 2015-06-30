@@ -4,3 +4,4 @@
 ;{% include ext/jquery.sticky.min.js %}
 ;{% include ext/casanova.menu.min.js %}
 ;{% include ext/casanova.min.js %}
+;{% include ext/modernizr.min.js %}
