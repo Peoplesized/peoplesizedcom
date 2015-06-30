@@ -4,4 +4,4 @@ We're not currenty looking to expand our team, but if you like what you see of w
 
 Send us whatever you want, it could be your CV (2 page max), and short cover letter (150 words max). We don't have time to respond in detail to every message we get, so make sure yours stands out (hint: for added impact, try using capital-letters for everything).
 
-Thanks also to everyone who applied for the Junior Consultant position. We’ll post an update, including some feedback, once we’ve finalised the selection.
+Thanks also to everyone who applied for the Junior Consultant position. We had a very strong field of applicants, with interest from talented young professionals in dozens of countries. And now we're really excited to start with our new colleague over the next couple of months.
