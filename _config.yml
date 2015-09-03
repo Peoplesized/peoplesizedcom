@@ -19,7 +19,7 @@ keywords:
   - policy
   - research
   - analysis
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: ""
 
 
 url: "http://www.peoplesized.com" # the base hostname & protocol for your site
