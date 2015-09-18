@@ -2,7 +2,7 @@
 website: "http://www.csbi.org.uk"
 status: live
 dateCompleted: "2015-09-18"
-imageUrl: ""
+imageUrl: "csbi-website-update"
 layout: post
 published: false
 title: CSBI website updates
