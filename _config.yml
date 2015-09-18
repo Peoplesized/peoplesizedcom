@@ -54,7 +54,7 @@ prose:
         field:
           element: text
           placeholder: e.g. 'csbi-website-update'
-          label: Image filename from Cloudinary (help at http://peoplesized.com/login)
+          label: Image filename from Cloudinary (help at http://peoplesized.com/upload)
       - name: website
         field:
           element: text
