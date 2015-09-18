@@ -36,16 +36,14 @@ prose:
         field:
           element: "text"
           label: "title"
-      - name: layout
-        field:
-          element: text
-          value: post
       - name: website
         field:
           element: text
           placeholder: Full URL (incl. "http://")
+          label: Website or link for project
       - name: status
         field:
+          label: Status
           element: select 
           options:
             - name: Concept
@@ -56,12 +54,18 @@ prose:
               value: live
             - name: Complete
               value: complete
-          value:
       - name: dateCompleted
         field:
           element: text
           placeholder: YYYY-MM-DD
+          label: Date - either completed, expected or last update
       - name: imageUrl
         field:
           element: text
           placeholder: Cloudinary image url
+          lablel: Image URL (Cloudinary)
+      - name: layout
+        field:
+          element: text
+          value: post
+          label: Layout
