@@ -2,7 +2,7 @@
   <article class="project">
     <a href="{{ post.url }}">
       <figure class="project-thumb">
-        <img src="{{ site.image_root_url }}h_200,w_300,c_fill/{{ site.image_account }}{{ post.imageUrl }}" height='200' width='300'>
+        <img src="{{ site.image_root_url }}h_200,w_300,c_fill/{{ site.image_account }}{{ post.imageUrl }}" height='200' width='300' alt='{{ post.content | strip_html | truncatewords '15' }}'>
       </figure>
       <header class="project-header">
         <h4 class="project-title">
