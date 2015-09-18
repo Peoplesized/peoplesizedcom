@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% assign tools = site.posts | where:'is_tool', true %}
+
+<div id="main" class='main'>
+  <section class="page-title section">
+    <div class="container">
+      <div class="row">
+        <div class="col-9">
+          <header class='section-header content-header'>
+            <h1 class='title'>
+              Tools
+            </h1>
+            <p class="subtitle lead">
+              So far, just <a href='{{ tools.first.url }}'>the one</a>. Won't take long to take a look!
+            </p>
+          </header>
+        </div>
+        <div class="col-27"></div>
+      </div>
+    </div>
+  </section>
+  <section id="main-content" class='section light'>
+    <div class="container">
+      <div class="section-content row">
+        <div class='col-1' id='primary'>
+          <div class="projects row">
+            {% for post in tools %}
+              {% include partials/portfolio_entry.html %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
