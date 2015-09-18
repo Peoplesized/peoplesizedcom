@@ -9,4 +9,5 @@ title: CSBI website updates
 ---
 
 
-Improved navigation and content.
+
+Wordpress updates.
