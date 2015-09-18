@@ -30,33 +30,34 @@ exclude:
 
 prose:
   rooturl: _posts
-  _posts:
-    - name: "title"
-      field:
-        element: "text"
-        label: "title"
-    - name: layout
-      field:
-        element: text
-        value: post
-    - name: website
-      field:
-        element: text
-        placeholder: Full URL (incl. "http://")
-    - name: status
-      field:
-        element: 
-        options:
-          - name: Concept
-          - name: In development
-          - name: Live
-          - name: Complete
-        value:
-    - name: dateCompleted
-      field:
-        element: text
-        placeholder: YYYY-MM-DD
-    - name: imageUrl
-      field:
-        element: text
-        placeholder: Cloudinary image url
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: layout
+        field:
+          element: text
+          value: post
+      - name: website
+        field:
+          element: text
+          placeholder: Full URL (incl. "http://")
+      - name: status
+        field:
+          element: 
+          options:
+            - name: Concept
+            - name: In development
+            - name: Live
+            - name: Complete
+          value:
+      - name: dateCompleted
+        field:
+          element: text
+          placeholder: YYYY-MM-DD
+      - name: imageUrl
+        field:
+          element: text
+          placeholder: Cloudinary image url
