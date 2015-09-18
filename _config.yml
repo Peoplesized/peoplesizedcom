@@ -45,7 +45,6 @@ prose:
             - value: In development
             - value: Live
             - value: Complete
-            - value: Othere status
       - name: dateCompleted
         field:
           element: text
