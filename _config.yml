@@ -63,7 +63,7 @@ prose:
         field:
           element: text
           placeholder: Cloudinary image url
-          lablel: Image URL (Cloudinary)
+          label: Image URL (Cloudinary)
       - name: layout
         field:
           element: text
