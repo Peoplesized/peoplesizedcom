@@ -41,11 +41,11 @@ prose:
           label: Status
           element: select 
           options:
-            - name: Concept
-            - name: In development
-            - name: Live
-            - name: Complete
-            - name: Othere status
+            - value: Concept
+            - value: In development
+            - value: Live
+            - value: Complete
+            - value: Othere status
       - name: dateCompleted
         field:
           element: text
