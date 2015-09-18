@@ -4,7 +4,7 @@ status: live
 dateCompleted: "2015-09-18"
 imageUrl: "csbi-website-update"
 layout: post
-published: false
+published: true
 title: CSBI website updates
 ---
 

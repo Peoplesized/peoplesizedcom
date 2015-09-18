@@ -36,11 +36,6 @@ prose:
         field:
           element: "text"
           label: "title"
-      - name: website
-        field:
-          element: text
-          placeholder: Full URL (incl. "http://")
-          label: Website or link for project
       - name: status
         field:
           label: Status
@@ -62,10 +57,15 @@ prose:
       - name: imageUrl
         field:
           element: text
-          placeholder: Cloudinary image url
-          label: Image URL (Cloudinary)
-      - name: layout
+          placeholder: e.g. 'csbi-website-update'
+          label: Image filename from Cloudinary
+      - name: website
         field:
           element: text
+          placeholder: Full URL (incl. "http://")
+          label: Website or link for project (incl. "http://")
+      - name: layout
+        field:
+          element: hidden
           value: post
-          label: Layout
+          label: Layout (can leave this)
