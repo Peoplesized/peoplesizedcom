@@ -42,13 +42,9 @@ prose:
           element: select 
           options:
             - name: Concept
-              value: concept
             - name: In development
-              value: in_development
             - name: Live
-              value: live
             - name: Complete
-              value: complete
       - name: dateCompleted
         field:
           element: text
