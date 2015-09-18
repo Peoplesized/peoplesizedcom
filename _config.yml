@@ -46,7 +46,7 @@ prose:
           placeholder: Full URL (incl. "http://")
       - name: status
         field:
-          element: 
+          element: select 
           options:
             - name: Concept
               value: concept
