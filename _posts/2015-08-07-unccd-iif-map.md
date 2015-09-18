@@ -2,13 +2,14 @@
 layout: post
 createdAt: {}
 updatedAt: {}
-title: "UNCCD IIF Map"
+title: UNCCD IIF Map
 website: "http://www.unccd.int/en/programmes/Capacity-building/CBW/Resources/Pages/5RC/IIF-Map.aspx"
-status: Live
+status: live
 dateCompleted: "2015-08-27"
 imageUrl: "unccd-map-iif-live.png"
 published: true
 ---
+
 
 This is a dynamic map tracking the status of country parties and other entities with regard to their progress on a global goal. The data are stored in a simple file, which is easy to edit.
 
