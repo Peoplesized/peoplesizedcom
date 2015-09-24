@@ -36,6 +36,7 @@ prose:
         field:
           element: hidden
           value: post
+          label: Layout (can leave this)
       - name: published
         field:
           element: hidden
