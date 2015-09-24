@@ -39,7 +39,7 @@ prose:
       - name: published
         field:
           element: hidden
-          value: true
+          value: false
       - name: title
         field:
           element: text
