@@ -34,8 +34,8 @@ prose:
     _posts:
       - name: random
         field:
-          element: text
-          value: 1
+          element: hidden
+          value: 2
       - name: layout
         field:
           element: hidden
