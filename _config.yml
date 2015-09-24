@@ -28,20 +28,28 @@ markdown: kramdown
 exclude: 
   - _data
 
-defaults: 
-  - 
-    scope: 
-      path: '' # an empty string here means all files in the project 
-      type: posts # previously post in Jekyll 2.2. 
-    values: 
-      layout: post
-      published: true
-
 prose:
   rooturl: _posts
   metadata:
     _posts:
-      - name: title
+      - 
+        name: random
+        field:
+          element: hidden
+          value: 2
+      - 
+        name: published
+        field:
+          value: true
+          element: hidden
+      - 
+        name: layout
+        field:
+          element: hidden
+          value: post
+          label: Layout (can leave this)
+      - 
+        name: title
         field:
           element: text
           label: title
