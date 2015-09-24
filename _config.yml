@@ -32,7 +32,10 @@ prose:
   rooturl: _posts
   metadata:
     _posts:
-      - published: true
+      - name: 'published'
+        field:
+          element: hidden
+          value: true
       - name: "title"
         field:
           element: "text"
