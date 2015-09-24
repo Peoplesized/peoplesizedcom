@@ -60,10 +60,10 @@ prose:
           element: text
           placeholder: Full URL (incl. "http://")
           label: Website or link for project (incl. "http://")
-      - name: layout
+      - name: "layout"
         field:
-          element: hidden
-          value: post
+          element: "hidden"
+          value: "post"
       - name: published
         field:
           element: hidden
