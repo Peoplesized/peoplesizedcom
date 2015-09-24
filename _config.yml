@@ -32,10 +32,10 @@ prose:
   rooturl: _posts
   metadata:
     _posts:
-      - name: "title"
+      - name: title
         field:
-          element: "text"
-          label: "title"
+          element: text
+          label: title
       - name: status
         field:
           label: Status
@@ -64,7 +64,6 @@ prose:
         field:
           element: hidden
           value: post
-          label: Layout (can leave this)
       - name: published
         field:
           element: hidden
