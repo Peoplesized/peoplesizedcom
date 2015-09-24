@@ -32,24 +32,12 @@ prose:
   rooturl: _posts
   metadata:
     _posts:
-      - 
-        name: published
-        field:
-          value: true
-          element: hidden
-      - 
-        name: layout
+      - name: layout
         field:
           element: hidden
           value: post
           label: Layout (can leave this)
-      - 
-        name: random
-        field:
-          element: hidden
-          value: 2
-      - 
-        name: title
+      - name: title
         field:
           element: text
           label: title
