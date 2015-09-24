@@ -32,6 +32,14 @@ prose:
   rooturl: _posts
   metadata:
     _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: published
+        field:
+          element: hidden
+          value: true
       - name: title
         field:
           element: text
@@ -60,11 +68,3 @@ prose:
           element: text
           placeholder: Full URL (incl. "http://")
           label: Website or link for project (incl. "http://")
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: published
-        field:
-          element: hidden
-          value: true
