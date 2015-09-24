@@ -35,24 +35,12 @@ defaults:
       type: posts # previously post in Jekyll 2.2. 
     values: 
       layout: post
+      published: true
 
 prose:
   rooturl: _posts
   metadata:
     _posts:
-      - name: random
-        field:
-          element: hidden
-          value: 2
-      - name: published
-        field:
-          value: true
-          element: hidden
-      - name: layout
-        field:
-          element: hidden
-          value: post
-          label: Layout (can leave this)
       - name: title
         field:
           element: text
