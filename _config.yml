@@ -32,14 +32,14 @@ prose:
   rooturl: _posts
   metadata:
     _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
       - name: published
         field:
           element: hidden
-          value: false
+          value: true
+      - name: layout
+        field:
+          element: hidden
+          value: post
       - name: title
         field:
           element: text
@@ -57,7 +57,7 @@ prose:
         field:
           element: text
           placeholder: YYYY-MM-DD
-          label: Date - either completed, expected or last update
+          label: Date - either last update, or completed date.
       - name: imageUrl
         field:
           element: text
