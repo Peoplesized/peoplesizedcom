@@ -33,11 +33,6 @@ prose:
   metadata:
     _posts:
       - 
-        name: random
-        field:
-          element: hidden
-          value: 2
-      - 
         name: published
         field:
           value: true
@@ -48,6 +43,11 @@ prose:
           element: hidden
           value: post
           label: Layout (can leave this)
+      - 
+        name: random
+        field:
+          element: hidden
+          value: 2
       - 
         name: title
         field:
