@@ -34,8 +34,8 @@ prose:
     _posts:
       - name: 'published'
         field:
-          element: hidden
-          value: true
+          element: 'hidden'
+          value: 'true'
       - name: "title"
         field:
           element: "text"
