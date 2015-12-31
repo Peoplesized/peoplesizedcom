@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-status: In development
+status: Closed
 dateCompleted: "2015-09-23"
 imageUrl: 085f9bf0_zxlch5.png
 website: ""
