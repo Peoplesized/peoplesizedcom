@@ -2,12 +2,10 @@
   <article class="project">
     <a href="{{ post.url }}">
       <figure class="project-thumb">
-        <img src='css/images/bg.gif' data-src="{{ site.image_root_url }}h_200,w_300,c_fill/{{ site.image_account }}{{ post.imageUrl }}" height='200' width='300' alt='{{ post.content | strip_html | truncatewords '15' }}'>
+        <img src='/css/images/bg.gif' data-src="{{ site.image_root_url }}h_200,w_300,c_fill/{{ site.image_account }}{{ post.imageUrl }}" height='200' width='300' alt='{{ post.content | strip_html | truncatewords '15' }}'>
       </figure>
       <header class="project-header">
-        <h4 class="project-title">
-          {{ post.title }}
-        </h4>
+        <h4 class="project-title">{{ post.title }}</h4>
         <div class="project-meta">
           {{ post.status }}
         </div>
