@@ -22,7 +22,7 @@ keywords:
 baseurl: ""
 
 
-url: "http://www.peoplesized.com" # the base hostname & protocol for your site
+url: "https://www.peoplesized.com" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 exclude: 
