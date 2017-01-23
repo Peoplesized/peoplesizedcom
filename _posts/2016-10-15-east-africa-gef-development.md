@@ -5,7 +5,7 @@ status: Complete
 dateCompleted: '2016-10-15'
 imageUrl: 2016-08-15_12.54.50_gfho1s.png
 website: 'http://www.worldbank.org/en/topic/environment/brief/global-wildlife-program'
-title: East Africa GEF development
+title: East Africa anti-poaching financing
 ---
 
 Member of consortium developing a $6 M project combatting poaching and
