@@ -3,7 +3,7 @@ layout: post
 id: 16gSTtNqg0uUSs4AQ2gSgE
 createdAt: {}
 updatedAt: {}
-title: GEF development advice
+title: GEF development support
 imageId: 4ZF3N8LrAISQMYoCiY2wia
 website: 'http://iucn.org'
 status: Completed
