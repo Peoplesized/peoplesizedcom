@@ -6,7 +6,7 @@ updatedAt: {}
 title: GEF development advice
 imageId: 4ZF3N8LrAISQMYoCiY2wia
 website: 'http://iucn.org'
-status: In development
+status: Completed
 dateCompleted: '2014-10-17'
 imageUrl: 7784268-w1400.jpg
 published: true
