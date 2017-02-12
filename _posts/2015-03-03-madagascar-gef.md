@@ -3,7 +3,7 @@ layout: post
 id: 2WvVJ5IqrmM8UauWA0ygis
 createdAt: 2015-03-03T11:39:17.654Z
 updatedAt: 2015-03-03T11:48:19.315Z
-title: Madagascar GEF support
+title: Madagascar GEF financing
 imageId: 4CUq4KtCakw4gKWUcqEm0m
 website: 'http://bit.ly/1KcpCTO'
 status: Completed
