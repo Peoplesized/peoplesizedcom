@@ -2,11 +2,12 @@
 layout: post
 createdAt: {}
 updatedAt: {}
-title: UNCCD IIF Map
-website: "http://www.unccd.int/en/programmes/Capacity-building/CBW/Resources/Pages/5RC/IIF-Map.aspx"
+title: Investment goals mapping for UNCCD
+website: >-
+  http://www.unccd.int/en/programmes/Capacity-building/CBW/Resources/Pages/5RC/IIF-Map.aspx
 status: Live
-dateCompleted: "2015-08-27"
-imageUrl: "unccd-map-iif-live.png"
+dateCompleted: '2015-08-27'
+imageUrl: unccd-map-iif-live.png
 published: true
 ---
 
