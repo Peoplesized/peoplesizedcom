@@ -3,7 +3,7 @@ layout: post
 published: true
 status: Live
 dateCompleted: '2016-10-15'
-imageUrl: elin-jonsson-31177z.jpg
+imageUrl: elin-jonsson-31177.jpg
 website: #
 title: Project development services Ecosystem-based Adaptation (EbA)
 ---
