@@ -1,5 +1,5 @@
 image_root_url: http://res.cloudinary.com/ppls/image/upload/
-image_account : v1504353994/peoplesizedcom/
+image_account : peoplesizedcom/
 
 host: 0.0.0.0
 permalink: /:year/:title.html
