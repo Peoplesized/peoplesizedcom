@@ -3,7 +3,7 @@ layout: post
 published: true
 status: Live
 dateCompleted: '2016-10-15'
-imageUrl: DoveRW4-cMo_mnfswl.png
+imageUrl: emmad-mazhari-216134.jpg
 website: #
 title: Equator Principles Association
 ---
