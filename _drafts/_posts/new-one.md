@@ -1,6 +1,6 @@
 ---
 date: 2017-10-23 11:04:43 +0000
-dateCompleted: 2017-10-23 00:00:00 +0200
+dateCompleted: 2017-10-23 11:08:27 +0200
 layout: post
 published: true
 status: Live
