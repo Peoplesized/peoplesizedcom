@@ -1,0 +1,45 @@
+---
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  default: post
+  config:
+    required: true
+- type: boolean
+  label: published
+  name: published
+  default: true
+- type: select
+  name: status
+  config:
+    source:
+      type: simple
+    options:
+    - Live
+    - Complete
+    - Closed
+    - In development
+    required: true
+  label: status
+- type: datetime
+  name: dateCompleted
+  label: dateCompleted
+  config:
+    required: true
+- type: text
+  name: imageUrl
+  label: imageUrl
+  config:
+    required: true
+- type: text
+  name: website
+  label: website
+  config:
+    required: true
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
