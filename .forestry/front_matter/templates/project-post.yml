@@ -23,6 +23,7 @@ fields:
     - In development
     required: true
   label: status
+  default: Live
 - type: datetime
   name: dateCompleted
   label: dateCompleted
