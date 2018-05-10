@@ -1,8 +1,7 @@
 ---
 published: true
 layout: post
-status: In development
-dateCompleted: '2015-09-24'
+status: Complete
 imageUrl: shutterstock_105359936_ab1dhw.png
 website: 'https://www.cbd.int/abs/'
 title: GEF ABS project development

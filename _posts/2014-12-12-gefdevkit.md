@@ -6,7 +6,7 @@ updatedAt: 2015-01-06T14:33:45.326Z
 title: GEF developers toolkit
 imageId: 1lfz3ZN4cIoAGqS4QiEks6
 website: http://www.gefdevkit.org
-status: Live
+status: Closed
 dateCompleted: '2014-07-01'
 imageUrl: Screenshot_2014-11-18_15.17.01.png
 is_tool: true

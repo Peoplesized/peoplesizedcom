@@ -6,7 +6,7 @@ updatedAt: 2015-03-03T11:45:05.031Z
 title: Georgia GEF support
 imageId: 7LsNFh1AlO0ycO2KmSCYiW
 website: http://bit.ly/1GLFw1Z
-status: In development
+status: Complete
 dateCompleted: '2015-04-30'
 imageUrl: shutterstock_132025325.jpg
 ---

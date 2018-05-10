@@ -1,8 +1,7 @@
 ---
 layout: post
 published: true
-status: Closed
-dateCompleted: "2015-09-23"
+status: Completed
 imageUrl: 085f9bf0_zxlch5.png
 website: ""
 title: "GEF support, Central Africa"
