@@ -1,17 +1,14 @@
 ---
+title: Investment goals mapping for UNCCD
+date: 2015-08-07 00:00:00 Z
 layout: post
 createdAt: {}
 updatedAt: {}
-title: Investment goals mapping for UNCCD
-website: >-
-  http://www.unccd.int/en/programmes/Capacity-building/CBW/Resources/Pages/5RC/IIF-Map.aspx
+website: http://www.unccd.int/en/programmes/Capacity-building/CBW/Resources/Pages/5RC/IIF-Map.aspx
 status: Live
 dateCompleted: '2015-08-27'
 imageUrl: unccd-map-iif-live.png
-published: true
 ---
-
-
 
 This is a dynamic map tracking the status of country parties and other entities with regard to their progress on a global goal. The data are stored in a simple file, which is easy to edit.
 

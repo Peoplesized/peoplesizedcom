@@ -1,5 +1,6 @@
 ---
 ---
+
 ready = ->
   theme = window.casanova
   theme.fixedHeader()
