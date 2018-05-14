@@ -6,9 +6,9 @@ id: 2WvVJ5IqrmM8UauWA0ygis
 createdAt: 2015-03-03 11:39:17.654000000 Z
 updatedAt: 2015-03-03 11:48:19.315000000 Z
 imageId: 4CUq4KtCakw4gKWUcqEm0m
-website: http://bit.ly/1KcpCTO
-status: Completed
-dateCompleted: 2015-07-27 00:00:00 Z
+website: 'http://bit.ly/1KcpCTO'
+status: Complete
+dateCompleted: 2015-07-27T00:00:00.000Z
 imageUrl: shutterstock_98171300.jpg
 ---
 
