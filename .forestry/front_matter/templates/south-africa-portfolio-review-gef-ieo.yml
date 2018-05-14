@@ -27,8 +27,7 @@ fields:
   type: datetime
   hidden: false
   default: ''
-- name: imageUrl
-  label: Imageurl
-  type: datetime
-  hidden: false
-  default: ''
+  config:
+    date_format: YYYY-MM-DD
+- type: text
+  name: imageUrl
