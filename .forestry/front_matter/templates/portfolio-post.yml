@@ -24,12 +24,8 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: dateCompleted
-  label: Datecompleted
-  type: datetime
-  hidden: false
-  default: ''
-  config:
-    date_format: YYYY-MM-DD
 - type: text
   name: imageUrl
+- type: text
+  name: dateCompleted
+  description: YYYY-MM-DD format date
