@@ -2,8 +2,8 @@
 title: South Africa portfolio review - GEF IEO
 date: 2018-05-10 00:00:00 +0000
 layout: post
-status: Lives
-dateCompleted: 2018-02-09 22:00:00 +0000
+status: Live
+dateCompleted: 2018-02-09 00:00:00 +0000
 imageUrl: hans-veth-454141-unsplash_mp4c3i.png
 website: 
 ---
