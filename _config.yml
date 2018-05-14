@@ -8,9 +8,6 @@ collections:
   posts:
     title: Posts
     output: true
-    status:
-    - In development
-    - Complete
   uploads:
     title: Uploads
     output: true
