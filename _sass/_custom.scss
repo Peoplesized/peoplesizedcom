@@ -272,6 +272,7 @@ mark {
         .project-thumbnail {
             flex-shrink: 0;
             width: 260px;
+            max-width: 100%;
             height: 150px;
             img {
                 width: 100%;
@@ -330,7 +331,7 @@ mark {
             color: #555;
             line-height: 1.7;
             margin-bottom: 15px;
-            font-size: 16px;
+            font-size: 17px;
         }
 
         .project-link span {
@@ -392,12 +393,12 @@ mark {
 }
 
 .project-content-large {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.7;
     color: #444;
 
     p {
-        font-size: 18px;
+        font-size: 19px;
         line-height: 1.7;
         margin-bottom: 20px;
     }
@@ -447,5 +448,228 @@ mark {
             font-weight: 400;
             font-variant: normal;
         }
+    }
+}
+
+/* Fix horizontal overflow on mobile */
+body {
+    overflow-x: hidden;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Mobile responsiveness improvements */
+@media only screen and (max-width: 767px) {
+    /* Index page mobile improvements */
+    #section-manifesto {
+        .section-header {
+            margin-bottom: 30px;
+            text-align: left;
+
+            h1 {
+                font-size: 36px;
+                line-height: 1.2;
+                margin-bottom: 10px;
+            }
+
+            .lead.title {
+                font-size: 18px;
+                line-height: 1.4;
+            }
+        }
+
+        .manifesto-content {
+            padding: 30px 0;
+
+            .principle {
+                margin-bottom: 25px;
+                padding: 20px;
+                border-radius: 6px;
+
+                h3 {
+                    font-size: 20px;
+                    margin-bottom: 12px;
+                }
+
+                p {
+                    font-size: 15px;
+                    line-height: 1.6;
+                }
+            }
+        }
+
+        .manifesto-footer {
+            margin-top: 40px;
+            padding-top: 25px;
+
+            p {
+                font-size: 15px;
+                text-align: left;
+            }
+        }
+    }
+
+    /* Archive page mobile improvements */
+    #section-archive {
+        .section-header {
+            margin-bottom: 30px;
+            text-align: left;
+
+            h1 {
+                font-size: 36px;
+                line-height: 1.2;
+                margin-bottom: 10px;
+            }
+
+            .lead {
+                font-size: 16px;
+                text-align: left;
+            }
+        }
+
+        .archive-intro {
+            font-size: 16px;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        .projects-list {
+            margin: 0;
+        }
+
+        .project-entry {
+            margin-bottom: 25px;
+            border-radius: 6px;
+
+            .project-entry-link {
+                flex-direction: column;
+                padding: 20px;
+                gap: 15px;
+            }
+
+            .project-thumbnail {
+                width: 100%;
+                height: 180px;
+                order: -1;
+
+                img {
+                    border-radius: 4px;
+                }
+            }
+
+            .project-content {
+                order: 2;
+            }
+
+            .project-year {
+                order: 1;
+                align-self: flex-start;
+                margin-bottom: 10px;
+
+                time {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #3498DB;
+                }
+            }
+
+            .project-title {
+                font-size: 18px;
+                margin-bottom: 8px;
+                line-height: 1.3;
+            }
+
+            .project-excerpt {
+                font-size: 16px;
+                line-height: 1.6;
+                margin-bottom: 12px;
+            }
+
+            .project-link span {
+                font-size: 13px;
+            }
+        }
+
+        .archive-footer {
+            margin-top: 40px;
+            padding-top: 25px;
+            text-align: left;
+        }
+    }
+
+    /* Post detail page mobile improvements */
+    .single-project {
+        padding: 20px 0;
+
+        .project-nav {
+            margin-bottom: 15px;
+
+            .back-to-archive {
+                font-size: 13px;
+            }
+        }
+
+        .project-header {
+            margin-bottom: 20px;
+
+            .project-title {
+                font-size: 28px;
+                line-height: 1.2;
+                margin-bottom: 10px;
+            }
+        }
+
+        .row {
+            flex-direction: column;
+        }
+
+        .col-21,
+        .col-15 {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .project-images img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .project-content-large {
+            font-size: 17px;
+            line-height: 1.7;
+
+            p {
+                font-size: 17px;
+                margin-bottom: 18px;
+            }
+        }
+
+        .project-meta-footer {
+            margin-top: 25px;
+            padding-top: 15px;
+        }
+    }
+
+    /* General mobile improvements */
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section {
+        padding-top: 30px;
+    }
+
+    .section .section-content {
+        padding-bottom: 15px;
     }
 }
