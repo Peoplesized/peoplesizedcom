@@ -26,38 +26,35 @@ title: Archive
             {% assign sorted_posts = site.posts | sort: 'date' | reverse %} {%
             for post in sorted_posts %}
             <article class="project-entry">
-              {% if post.imageUrl %}
-              <div class="project-thumbnail">
-                <img
-                  src="{{ '/images/' | append: post.imageUrl | relative_url }}"
-                  alt="{{ post.title }}"
-                  loading="lazy"
-                />
-              </div>
-              {% endif %}
-              <div class="project-content">
-                <div class="project-meta">
+              <a href="{{ post.url | relative_url }}" class="project-entry-link">
+                {% if post.imageUrl %}
+                <div class="project-thumbnail">
+                  <img
+                    src="{{ '/images/' | append: post.imageUrl | relative_url }}"
+                    alt="{{ post.title }}"
+                    loading="lazy"
+                  />
+                </div>
+                {% endif %}
+                <div class="project-content">
+                  <h3 class="project-title">
+                    {{ post.title }}
+                  </h3>
+                  <div class="project-excerpt">
+                    {{ post.content | strip_html | truncatewords: 30 }}
+                  </div>
+                  {% if post.website %}
+                  <div class="project-link">
+                    <span>View project →</span>
+                  </div>
+                  {% endif %}
+                </div>
+                <div class="project-year">
                   <time datetime="{{ post.date | date_to_xmlschema }}"
                     >{{ post.date | date: "%Y" }}</time
                   >
-                  {% if post.status %}
-                  <span class="status">{{ post.status }}</span>
-                  {% endif %}
                 </div>
-                <h3 class="project-title">
-                  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                </h3>
-                <div class="project-excerpt">
-                  {{ post.content | strip_html | truncatewords: 30 }}
-                </div>
-                {% if post.website %}
-                <div class="project-link">
-                  <a href="{{ post.website }}" target="_blank" rel="noopener"
-                    >View project →</a
-                  >
-                </div>
-                {% endif %}
-              </div>
+              </a>
             </article>
             {% endfor %}
           </div>

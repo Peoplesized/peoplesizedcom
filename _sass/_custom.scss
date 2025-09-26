@@ -247,23 +247,32 @@ mark {
 
     .project-entry {
         margin-bottom: 40px;
-        padding: 25px;
         background: rgba(255, 255, 255, 0.9);
         border-radius: 8px;
         border: 1px solid #e0e0e0;
         transition: box-shadow 0.2s ease;
-        display: flex;
-        gap: 20px;
 
         &:hover {
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
 
+        .project-entry-link {
+            display: flex;
+            gap: 20px;
+            padding: 25px;
+            color: inherit;
+            text-decoration: none;
+
+            &:hover {
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+
         .project-thumbnail {
             flex-shrink: 0;
-            width: 120px;
-            height: 80px;
-
+            width: 260px;
+            height: 150px;
             img {
                 width: 100%;
                 height: 100%;
@@ -299,16 +308,21 @@ mark {
 
         .project-title {
             margin-bottom: 10px;
+            color: #2c3e50;
+            font-size: 20px;
+            font-weight: 600;
+        }
 
-            a {
-                color: #2c3e50;
-                text-decoration: none;
-                font-size: 20px;
-                font-weight: 600;
+        .project-year {
+            flex-shrink: 0;
+            align-self: flex-start;
+            padding-top: 2px;
 
-                &:hover {
-                    color: #3498DB;
-                }
+            time {
+                font-family: monospace;
+                font-size: 14px;
+                color: #666;
+                font-weight: 500;
             }
         }
 
@@ -318,16 +332,10 @@ mark {
             margin-bottom: 15px;
         }
 
-        .project-link a {
+        .project-link span {
             color: #3498DB;
-            text-decoration: none;
             font-size: 14px;
             font-weight: 500;
-
-            &:hover {
-                color: #3486BC;
-                text-decoration: underline;
-            }
         }
     }
 

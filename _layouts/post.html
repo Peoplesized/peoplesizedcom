@@ -33,9 +33,6 @@ layout: default
                   {{ page.content | markdownify }}
                 </div>
                 <div class='project-meta-footer'>
-                  {% if page.status %}
-                    <span class='status'>{{ page.status }}</span>
-                  {% endif %}
                   <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }}</time>
                 </div>
               </div>
