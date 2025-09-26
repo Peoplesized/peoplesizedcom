@@ -3,7 +3,7 @@ title: GEF ABS project development
 date: 2015-09-24 00:00:00 Z
 layout: post
 status: Complete
-imageUrl: shutterstock_105359936_ab1dhw.png
+imageUrl: shutterstock_105359936_ab1dhw.jpg
 website: https://www.cbd.int/abs/
 ---
 

@@ -4,7 +4,7 @@ date: 2016-10-15 00:00:00 Z
 layout: post
 status: Complete
 dateCompleted: '2016-10-15'
-imageUrl: 2016-08-15_12.54.50_gfho1s.png
+imageUrl: 2016-08-15_12.54.50_gfho1s.jpg
 website: http://www.worldbank.org/en/topic/environment/brief/global-wildlife-program
 ---
 

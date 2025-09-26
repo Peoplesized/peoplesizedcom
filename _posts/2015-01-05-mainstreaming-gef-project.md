@@ -7,7 +7,7 @@ createdAt: {}
 updatedAt: {}
 imageId: 2919mzi9ask44s4S0u04Ki
 website: http://bit.ly/1zOibYf
-status: In development
+status: Complete
 dateCompleted: '2015-07-25'
 imageUrl: 9422638-w1400.jpg
 ---

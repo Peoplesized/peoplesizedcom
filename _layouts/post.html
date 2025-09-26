@@ -25,30 +25,18 @@ layout: default
             <div class='row'>
               <div class='col-9'>
                 <div class='project-images'>
-                  <a href="{{page.website}}">
-                    <img src="{{ site.image_root_url }}w_780/{{ site.image_account}}{{ page.imageUrl }}">
-                  </a>
+                  <img src="{{ '/images/' | append: page.imageUrl | relative_url }}">
                 </div>
               </div>
               <div class='col-27'>
-                <div class='project-meta-header'>
-                  {% if page.status %}
-                    <span class='status status-{{ page.status | downcase | replace: " ", "-" }}'>{{ page.status }}</span>
-                  {% endif %}
-                  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }}</time>
-                </div>
                 <div class='project-summary'>
                   {{ page.content | markdownify }}
                 </div>
-                <div class='project-details'>
-                  {% if page.dateCompleted %}
-                    <div class='project-completed'>
-                      <strong>Completed</strong>: {{ page.dateCompleted }}
-                    </div>
+                <div class='project-meta-footer'>
+                  {% if page.status %}
+                    <span class='status'>{{ page.status }}</span>
                   {% endif %}
-                  {% if page.website %}
-                    <a href="{{page.website}}" class='button primary medium fullwidth'>See project</a>
-                  {% endif %}
+                  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }}</time>
                 </div>
               </div>
             </div>

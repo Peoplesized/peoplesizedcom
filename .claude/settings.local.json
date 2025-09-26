@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:www.peoplesized.com)"
+      "WebFetch(domain:www.peoplesized.com)",
+      "WebFetch(domain:locational.io)"
     ],
     "deny": [],
     "ask": []

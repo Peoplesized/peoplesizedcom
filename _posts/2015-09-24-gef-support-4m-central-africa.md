@@ -3,7 +3,7 @@ title: GEF support, Central Africa
 date: 2015-09-24 00:00:00 Z
 layout: post
 status: Complete
-imageUrl: '085f9bf0_zxlch5.png'
+imageUrl: '085f9bf0_zxlch5.jpg'
 website: ''
 ---
 

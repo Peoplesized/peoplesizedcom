@@ -7,7 +7,7 @@ createdAt: 2014-12-12 11:03:25.007000000 Z
 updatedAt: 2014-12-19 09:54:24.857000000 Z
 imageId: 4JBruOcxpYs0AcuOwWGMi0
 website: 
-status: In development
+status: Complete
 dateCompleted: 
 imageUrl: Screenshot_2014-12-19_09.53.40.png
 ---

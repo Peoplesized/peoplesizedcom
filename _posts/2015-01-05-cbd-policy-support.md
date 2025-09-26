@@ -9,7 +9,7 @@ imageId: Em3WMugKESIy6AA0GyeiK
 website: http://www.cbd.int/development
 status: Complete
 dateCompleted: '2014-02-28'
-imageUrl: ExpertGroup.jpeg
+imageUrl: ExpertGroup.jpg
 ---
 
 Commissioned to provide technical services for the Second Meeting of the Expert Group on Biodiversity for Poverty Eradication and Development (Chennai, India, December 2013). 
