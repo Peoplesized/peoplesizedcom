@@ -13,6 +13,6 @@ imageUrl: Screenshot_2014-12-17_14.27.58.png
 who: jonathan
 ---
 
-Simplifies the exploration and discovery of a hierarchical set of indicators with 3 different views of the same data: a grid, conceptual framework and a table.
+Simplified the exploration and discovery of a hierarchical set of indicators with 3 different views of the same data: a grid, conceptual framework and a table.
 
 Built at UNEP-WCMC as an embeddable component using Backbone and Rails, and presented in an iframe on existing DotNetNuke site.

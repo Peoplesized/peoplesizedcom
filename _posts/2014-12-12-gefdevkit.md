@@ -14,6 +14,6 @@ is_tool: true
 who: jonathan
 ---
 
-A simple and free set of resources for people developing projects for the [Global Environment Facility](http://thegef.org). Walks you through the basics, gives an overview of the workflow and common steps, and we provide annotated templates for each of the major documents you would need to produce for a compliant and approvable project. 
+A simple and free set of resources for people developing projects for the [Global Environment Facility](http://thegef.org). Walked you through the basics, gave an overview of the workflow and common steps, and we provided annotated templates for each of the major documents you would need to produce for a compliant and approvable project. 
 
 Built with NodeJS using simple Jade and Markdown templates. Documents all hosted on Google Drive.

@@ -13,7 +13,7 @@ imageUrl: Screenshot_2014-12-17_13.18.39.png
 who: jonathan
 ---
 
-Tool for technical experts to visualise and explore data relating to ape populations. Offers 3 views of the
+Tool for technical experts to visualise and explore data relating to ape populations. Offered 3 views of the
 data (graph, map and table), filterable and updating in realtime. Built with simple static datasource, using
 BackboneJS.
 

@@ -11,6 +11,6 @@ imageUrl: unccd-map-iif-live.png
 who: jonathan
 ---
 
-This is a dynamic map tracking the status of country parties and other entities with regard to their progress on a global goal. The data are stored in a simple file, which is easy to edit.
+This was a dynamic map tracking the status of country parties and other entities with regard to their progress on a global goal. The data were stored in a simple file, which was easy to edit.
 
-Reactively-templated using [ractive](http://www.ractivejs.org), this is a designed as a lightweight, self-contained map visualisation application, served from static hosting with very low ongoing costs. It is embedded in the client's CMS through an iframe.
+Reactively-templated using [ractive](http://www.ractivejs.org), this was designed as a lightweight, self-contained map visualisation application, served from static hosting with very low ongoing costs. It was embedded in the client's CMS through an iframe.
