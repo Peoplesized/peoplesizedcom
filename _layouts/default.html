@@ -6,5 +6,8 @@
     {{ content }}
     {% include partials/footer.html %}
     {% include partials/ga.html %}
+    <script>
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>

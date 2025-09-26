@@ -10,23 +10,21 @@ title: Archive
         <header class="content-header section-header">
           <h1>Project Archive</h1>
           <p class="lead">
-            Environmental and social development work, 2014-2025
+            From 2014, Peoplesized worked on projects ranging from small
+            software tools to multi-million dollar international environemnt and
+            development initiatives.
           </p>
         </header>
 
         <div class="archive-content">
-          <p class="archive-intro">
-            Over several years, Peoplesized worked on projects ranging from $10k
-            software tools to $100m international development programs. This
-            archive preserves that history—from GEF project design to mobile
-            apps for conservation.
-          </p>
-
           <div class="projects-list">
-            {% assign sorted_posts = site.posts | where: 'who', 'jonathan' | sort: 'date' | reverse %} {%
-            for post in sorted_posts %}
+            {% assign sorted_posts = site.posts | where: 'who', 'jonathan' |
+            sort: 'date' | reverse %} {% for post in sorted_posts %}
             <article class="project-entry">
-              <a href="{{ post.url | relative_url }}" class="project-entry-link">
+              <a
+                href="{{ post.url | relative_url }}"
+                class="project-entry-link"
+              >
                 {% if post.imageUrl %}
                 <div class="project-thumbnail">
                   <img
@@ -37,9 +35,7 @@ title: Archive
                 </div>
                 {% endif %}
                 <div class="project-content">
-                  <h3 class="project-title">
-                    {{ post.title }}
-                  </h3>
+                  <h3 class="project-title">{{ post.title }}</h3>
                   <div class="project-excerpt">
                     {{ post.content | strip_html | truncatewords: 30 }}
                   </div>

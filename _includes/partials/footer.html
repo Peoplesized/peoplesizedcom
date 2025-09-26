@@ -1,15 +1,14 @@
-{% include partials/about_us.html %}
-<footer id='site-footer'>
-  <section class='section dark' id='footer-bottom'>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-18'>
-          <p class='copyright'>
+<footer id="site-footer">
+  <section class="section dark" id="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-18">
+          <p class="copyright">
             &copy;
-            {{ site.time | date: "%Y" }}
-            Peoplesized Ltd
-            <br>
-            <a href='mailto:hello@peoplesized.com'>hello@peoplesized.com</a>
+<span id="current-year">{{ site.time | date: "%Y" }}</span>
+            Peoplesized
+            <br />
+            <a href="mailto:hello@peoplesized.com">hello@peoplesized.com</a>
           </p>
         </div>
       </div>
