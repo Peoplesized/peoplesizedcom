@@ -123,6 +123,11 @@ a:active, a:hover,
 .section.light .site-title a {
     color: #696969;
 }
+
+/* Override uppercase navigation text */
+#site-nav > ul > li > a {
+    text-transform: none;
+}
 #mobile-menu{
     background-color: #575757;
 }
@@ -177,7 +182,7 @@ mark {
         max-width: 700px;
         margin: 0 auto;
         padding: 40px 30px;
-        background: rgba(255, 255, 255, 0.18);
+        background: rgba(255, 255, 255, 0.52);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         border-radius: 12px;
@@ -431,7 +436,7 @@ mark {
 
 /* Make site header translucent on manifesto page */
 body.manifesto-page #site-header.header.section.light {
-    background-color: rgba(255, 255, 255, 0.18) !important;
+    background-color: rgba(255, 255, 255, 0.52) !important;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);

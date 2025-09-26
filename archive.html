@@ -8,7 +8,7 @@ title: Archive
     <div class="container">
       <div class="section-content">
         <header class="content-header section-header">
-          <h1>Project Archive</h1>
+          <h1>Projects archive</h1>
           <p class="lead">
             From 2014, Peoplesized worked on projects ranging from small
             software tools to multi-million dollar international environemnt and
@@ -47,11 +47,9 @@ title: Archive
                 </div>
                 <div class="project-year">
                   <time datetime="{{ post.date | date_to_xmlschema }}">
-                    {% if post.started_year == post.completed_year %}
-                      {{ post.completed_year }}
-                    {% else %}
-                      {{ post.started_year }} - {{ post.completed_year }}
-                    {% endif %}
+                    {% if post.started_year == post.completed_year %} {{
+                    post.completed_year }} {% else %} {{ post.started_year }} -
+                    {{ post.completed_year }} {% endif %}
                   </time>
                 </div>
               </a>
