@@ -10,6 +10,8 @@ website: http://maboundary.herokuapp.com/?token=demo&usemap=true
 status: Concept
 dateCompleted: '2014-11-16'
 imageUrl: thatsmyfarm_screenshot.png
+who: jonathan
+published: false
 ---
 
 Designed for countries where good cadastral (land tenure) information doesn't exist, maybe as a result of land redistribution policies. Without good information on who owns the land, it's very risky for investors and others to engage due to the likelihood of legal challenges, etc.

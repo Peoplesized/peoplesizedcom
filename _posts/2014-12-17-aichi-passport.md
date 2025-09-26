@@ -10,6 +10,7 @@ website: https://itunes.apple.com/app/id564224957
 status: Complete
 dateCompleted: '2012-12-10'
 imageUrl: Screenshot_2014-11-18_12.31.06.png
+who: jonathan
 ---
 
 A mobile app available on iOS and Android platforms, which provides annual updates for the global biodiversity indicators brought together by the BIP to monitor progress towards the Strategic Plan for Biodiversity 2011-2020 and the underlying Aichi Biodiversity Targets.

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Archive
+title: Jessica's Projects
+permalink: /jessica/
 ---
 
 <div id="main" class="main">
@@ -8,22 +9,21 @@ title: Archive
     <div class="container">
       <div class="section-content">
         <header class="content-header section-header">
-          <h1>Project Archive</h1>
+          <h1>Jessica's Projects</h1>
           <p class="lead">
-            Environmental and social development work, 2014-2025
+            Environmental and social development work, 2014-2015
           </p>
         </header>
 
         <div class="archive-content">
           <p class="archive-intro">
-            Over several years, Peoplesized worked on projects ranging from $10k
-            software tools to $100m international development programs. This
-            archive preserves that history—from GEF project design to mobile
-            apps for conservation.
+            Jessica's contributions to international development programs, including
+            GEF project coordination, biodiversity policy work, and partnership management
+            in the extractive industries sector.
           </p>
 
           <div class="projects-list">
-            {% assign sorted_posts = site.posts | where: 'who', 'jonathan' | sort: 'date' | reverse %} {%
+            {% assign sorted_posts = site.posts | where: 'who', 'jessica' | sort: 'date' | reverse %} {%
             for post in sorted_posts %}
             <article class="project-entry">
               <a href="{{ post.url | relative_url }}" class="project-entry-link">

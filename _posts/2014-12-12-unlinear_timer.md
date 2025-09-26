@@ -10,6 +10,7 @@ website:
 status: Complete
 dateCompleted: 
 imageUrl: Screenshot_2014-12-19_09.53.40.png
+who: jonathan
 ---
 
 It's a simple timer that helps you get to the end meetings and appointments on time, and having achieved what you want. It gives you a series of alarms at irregular, but predefined intervals, to help keep you conscious of the passing of time.

@@ -10,6 +10,7 @@ website: http://apesportal.eva.mpg.de/status/tools/dashboard
 status: Complete
 dateCompleted: '2012-03-15'
 imageUrl: Screenshot_2014-12-17_13.18.39.png
+who: jonathan
 ---
 
 Tool for technical experts to visualise and explore data relating to ape populations. Offers 3 views of the

@@ -10,6 +10,7 @@ website: 'http://iucn.org'
 status: Complete
 dateCompleted: '2014-10-17'
 imageUrl: 7784268-w1400.jpg
+who: jessica
 ---
 
 Commissioned to advise the development of IUCN's first project as a GEF Implementing Agency, focused on empowering communities to lead responses to climate change in 3 diverse countries.

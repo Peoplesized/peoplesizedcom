@@ -6,6 +6,7 @@ status: Complete
 dateCompleted: '2016-09-03'
 imageUrl: 2016-08-15_11.27.43_dq49cq.jpg
 website: "#"
+who: jessica
 ---
 
 Sole consultant carrying out final project evaluation for a $5.4 M

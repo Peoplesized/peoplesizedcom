@@ -10,6 +10,7 @@ website: http://www.cbd.int/development
 status: Complete
 dateCompleted: '2014-02-28'
 imageUrl: ExpertGroup.jpg
+who: jessica
 ---
 
 Commissioned to provide technical services for the Second Meeting of the Expert Group on Biodiversity for Poverty Eradication and Development (Chennai, India, December 2013). 

@@ -10,6 +10,7 @@ website: 'http://bit.ly/1KcpCTO'
 status: Complete
 dateCompleted: 2015-07-27T00:00:00.000Z
 imageUrl: shutterstock_98171300.jpg
+who: jessica
 ---
 
 Enabling UNEP and the Government of Madagascar to develop a fully-compliant project document (including tracking tools) and CEO endorsement request for a $3.9M grant to establish new protected areas (PAs). Project carried out in French. 

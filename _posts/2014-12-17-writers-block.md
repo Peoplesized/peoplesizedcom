@@ -10,6 +10,7 @@ website:
 status: Concept
 dateCompleted: '2014-03-12'
 imageUrl: writers-block.png
+who: jonathan
 ---
 
 Poll-based tool for blog authors to engage with their users, and find out the most popular topics to write about. Allows for voting and suggestion of topics. For readers, no accounts or login are required. 

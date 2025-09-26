@@ -11,6 +11,7 @@ status: Closed
 dateCompleted: '2014-07-01'
 imageUrl: Screenshot_2014-11-18_15.17.01.png
 is_tool: true
+who: jonathan
 ---
 
 A simple and free set of resources for people developing projects for the [Global Environment Facility](http://thegef.org). Walks you through the basics, gives an overview of the workflow and common steps, and we provide annotated templates for each of the major documents you would need to produce for a compliant and approvable project. 

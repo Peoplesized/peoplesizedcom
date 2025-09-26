@@ -10,6 +10,7 @@ website: https://grademypark.herokuapp.com
 status: Concept
 dateCompleted: '2011-11-14'
 imageUrl: Screenshot_2014-12-17_11.46.29.png
+who: jonathan
 ---
 
 Concept and prototype for a way to gather quantitative data on protected area condition from people who visit. This is from 2011, but the prototype is still up - but plenty of it breaks!

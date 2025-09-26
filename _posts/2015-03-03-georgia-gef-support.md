@@ -10,6 +10,7 @@ website: http://bit.ly/1GLFw1Z
 status: Complete
 dateCompleted: '2015-04-30'
 imageUrl: shutterstock_132025325.jpg
+who: jessica
 ---
 
 Supporting UNEP and the Government of Georgia to submit a full-compliant Medium-Sized project (<$1M) request to GEF in the Land Degradation focal area. 
