@@ -3,7 +3,7 @@ title: Locational.io - Spatial Intelligence Platform
 date: 2024-01-15 00:00:00 Z
 layout: post
 status: Complete
-imageUrl: locational-map.png
+imageUrl: severe_disease_zwe.cde8866d.png
 website: https://locational.io
 who: jonathan
 started_year: 2020
