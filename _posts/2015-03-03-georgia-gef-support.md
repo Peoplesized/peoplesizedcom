@@ -8,9 +8,10 @@ updatedAt: 2015-03-03 11:45:05.031000000 Z
 imageId: 7LsNFh1AlO0ycO2KmSCYiW
 website: http://bit.ly/1GLFw1Z
 status: Complete
-dateCompleted: '2015-04-30'
 imageUrl: shutterstock_132025325.jpg
 who: jessica
+started_year: 2015
+completed_year: 2015
 ---
 
 Supporting UNEP and the Government of Georgia to submit a full-compliant Medium-Sized project (<$1M) request to GEF in the Land Degradation focal area. 

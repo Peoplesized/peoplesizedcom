@@ -8,9 +8,10 @@ updatedAt: 2015-03-03 11:11:21.580000000 Z
 imageId: 3FtiOSX1Qcuk8WEiE0gSYo
 website: http://bit.ly/1jUQb2r
 status: Complete
-dateCompleted: '2014-04-18'
 imageUrl: 4997219-w1400.jpg
 who: jessica
+started_year: 2015
+completed_year: 2015
 ---
 
 Coordinated the Project Document and CEO endorsement request development for a $7m Ecosystem-based Adaptation project, the first such project to access funds from GEF's Least Developed Countries Fund. 

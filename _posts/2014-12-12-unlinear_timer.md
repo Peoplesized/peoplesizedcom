@@ -8,9 +8,10 @@ updatedAt: 2014-12-19 09:54:24.857000000 Z
 imageId: 4JBruOcxpYs0AcuOwWGMi0
 website: 
 status: Complete
-dateCompleted: 
 imageUrl: Screenshot_2014-12-19_09.53.40.png
 who: jonathan
+started_year: 2014
+completed_year: 2014
 ---
 
 It was a simple timer that helped you get to the end meetings and appointments on time, and having achieved what you wanted. It gave you a series of alarms at irregular, but predefined intervals, to help keep you conscious of the passing of time.

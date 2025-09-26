@@ -27,5 +27,8 @@ fields:
 - type: text
   name: imageUrl
 - type: text
-  name: dateCompleted
-  description: YYYY-MM-DD format date
+  name: started_year
+  description: Project start year (YYYY format)
+- type: text
+  name: completed_year
+  description: Project completion year (YYYY format)

@@ -5,9 +5,10 @@ published: false
 layout: post
 website: http://www.csbi.org.uk
 status: Concept
-dateCompleted: '2015-09-18'
 imageUrl: csbi-website-update
 who: jonathan
+started_year: 2015
+completed_year: 2015
 ---
 
 Wordpress updates.

@@ -46,9 +46,13 @@ title: Archive
                   {% endif %}
                 </div>
                 <div class="project-year">
-                  <time datetime="{{ post.date | date_to_xmlschema }}"
-                    >{{ post.date | date: "%Y" }}</time
-                  >
+                  <time datetime="{{ post.date | date_to_xmlschema }}">
+                    {% if post.started_year == post.completed_year %}
+                      {{ post.completed_year }}
+                    {% else %}
+                      {{ post.started_year }} - {{ post.completed_year }}
+                    {% endif %}
+                  </time>
                 </div>
               </a>
             </article>

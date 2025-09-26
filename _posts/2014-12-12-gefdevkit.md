@@ -8,10 +8,11 @@ updatedAt: 2015-01-06 14:33:45.326000000 Z
 imageId: 1lfz3ZN4cIoAGqS4QiEks6
 website: http://www.gefdevkit.org
 status: Closed
-dateCompleted: '2014-07-01'
 imageUrl: Screenshot_2014-11-18_15.17.01.png
 is_tool: true
 who: jonathan
+started_year: 2014
+completed_year: 2014
 ---
 
 A simple and free set of resources for people developing projects for the [Global Environment Facility](http://thegef.org). Walked you through the basics, gave an overview of the workflow and common steps, and we provided annotated templates for each of the major documents you would need to produce for a compliant and approvable project. 

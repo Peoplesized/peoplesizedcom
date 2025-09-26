@@ -60,11 +60,16 @@ prose:
             - value: In development
             - value: Live
             - value: Complete
-      - name: dateCompleted
+      - name: started_year
         field:
           element: text
-          placeholder: YYYY-MM-DD
-          label: Date - either last update, or completed date.
+          placeholder: YYYY
+          label: Project start year
+      - name: completed_year
+        field:
+          element: text
+          placeholder: YYYY
+          label: Project completion year
       - name: imageUrl
         field:
           element: text

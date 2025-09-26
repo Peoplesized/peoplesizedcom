@@ -8,9 +8,10 @@ updatedAt: 2014-12-18 09:03:01.911000000 Z
 imageId: 6nCCdiXJ9m2qWqaoISgsue
 website: http://www.bipindicators.net/globalindicators
 status: Complete
-dateCompleted: '2012-04-10'
 imageUrl: Screenshot_2014-12-17_14.27.58.png
 who: jonathan
+started_year: 2014
+completed_year: 2014
 ---
 
 Simplified the exploration and discovery of a hierarchical set of indicators with 3 different views of the same data: a grid, conceptual framework and a table.

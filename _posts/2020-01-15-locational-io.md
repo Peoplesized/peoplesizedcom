@@ -3,10 +3,11 @@ title: Locational.io - Spatial Intelligence Platform
 date: 2024-01-15 00:00:00 Z
 layout: post
 status: Complete
-dateCompleted: 2020-12-31
 imageUrl: locational-map.png
 website: https://locational.io
 who: jonathan
+started_year: 2020
+completed_year: 2024
 ---
 
 A spatial intelligence company that combined human expertise with machine learning to simplify spatial analysis and make maps smarter. Locational.io offered customizable spatial data analysis services including spatial prediction, survey optimization, task clustering, and smart heatmaps.
