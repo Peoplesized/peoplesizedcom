@@ -5,7 +5,7 @@ layout: post
 createdAt: {}
 updatedAt: {}
 website: http://www.unccd.int/en/programmes/Capacity-building/CBW/Resources/Pages/5RC/IIF-Map.aspx
-status: Live
+status: Complete
 dateCompleted: '2015-08-27'
 imageUrl: unccd-map-iif-live.png
 ---

@@ -7,7 +7,7 @@ createdAt: 2014-12-17 14:31:48.248000000 Z
 updatedAt: 2014-12-18 09:03:01.911000000 Z
 imageId: 6nCCdiXJ9m2qWqaoISgsue
 website: http://www.bipindicators.net/globalindicators
-status: Live
+status: Complete
 dateCompleted: '2012-04-10'
 imageUrl: Screenshot_2014-12-17_14.27.58.png
 ---

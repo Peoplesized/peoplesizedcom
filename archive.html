@@ -1,0 +1,59 @@
+---
+layout: default
+title: Archive
+---
+
+<div id='main' class="main">
+  <section class='section simple light' id='section-archive'>
+    <div class='container'>
+      <div class='section-content'>
+        <header class='content-header section-header'>
+          <h1>Project Archive</h1>
+          <p class='lead'>Environmental and social development work, 2014-2018</p>
+        </header>
+
+        <div class='archive-content'>
+          <p class='archive-intro'>
+            Over several years, Peoplesized worked on projects ranging from $10k software tools to $100m international development programs. This archive preserves that history—from GEF project design to mobile apps for conservation.
+          </p>
+
+          <div class='projects-list'>
+            {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+            {% for post in sorted_posts %}
+            <article class='project-entry'>
+              {% if post.imageUrl %}
+              <div class='project-thumbnail'>
+                <img src="{{ site.image_root_url }}{{ site.image_account }}{{ post.imageUrl }}" alt="{{ post.title }}" loading="lazy">
+              </div>
+              {% endif %}
+              <div class='project-content'>
+                <div class='project-meta'>
+                  {% if post.status %}
+                    <span class='status status-{{ post.status | downcase | replace: " ", "-" }}'>{{ post.status }}</span>
+                  {% endif %}
+                  <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y" }}</time>
+                </div>
+                <h3 class='project-title'>
+                  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </h3>
+                <div class='project-excerpt'>
+                  {{ post.content | strip_html | truncatewords: 30 }}
+                </div>
+                {% if post.website %}
+                  <div class='project-link'>
+                    <a href="{{ post.website }}" target="_blank" rel="noopener">View project →</a>
+                  </div>
+                {% endif %}
+              </div>
+            </article>
+            {% endfor %}
+          </div>
+        </div>
+
+        <footer class='archive-footer'>
+          <p><a href='index.html'>← Back to main page</a></p>
+        </footer>
+      </div>
+    </div>
+  </section>
+</div>

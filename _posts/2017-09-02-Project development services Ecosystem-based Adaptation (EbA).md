@@ -2,7 +2,7 @@
 title: Project development services Ecosystem-based Adaptation (EbA)
 date: 2017-09-02 00:00:00 Z
 layout: post
-status: Live
+status: Complete
 dateCompleted: '2016-10-15'
 imageUrl: elin-jonsson-31177.jpg
 website: 

@@ -7,7 +7,7 @@ createdAt: 2014-12-17 14:29:51.398000000 Z
 updatedAt: 2014-12-18 14:45:31.691000000 Z
 imageId: 2RU1c4qgB2mi4ceYGmMYC6
 website: https://itunes.apple.com/app/id564224957
-status: Live
+status: Complete
 dateCompleted: '2012-12-10'
 imageUrl: Screenshot_2014-11-18_12.31.06.png
 ---

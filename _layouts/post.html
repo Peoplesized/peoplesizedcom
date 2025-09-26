@@ -31,24 +31,21 @@ layout: default
                 </div>
               </div>
               <div class='col-27'>
+                <div class='project-meta-header'>
+                  {% if page.status %}
+                    <span class='status status-{{ page.status | downcase | replace: " ", "-" }}'>{{ page.status }}</span>
+                  {% endif %}
+                  <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }}</time>
+                </div>
                 <div class='project-summary'>
                   {{ page.content | markdownify }}
                 </div>
                 <div class='project-details'>
-                  <header class='content-header v3'></header>
-                  <ul class='unstyled'>
-                    <li>
-                      <i class='fa fa-toggle-on'></i>
-                      <strong>Status</strong>:
-                      {{ page.status }}
-                    </li>
-                    {% if page.dateCompleted %}
-                      <li>
-                        <i class="fa fa-calendar"></i>
-                        <strong>Updated</strong>: {{ page.dateCompleted }}
-                      </li>
-                    {% endif %}
-                  </ul>
+                  {% if page.dateCompleted %}
+                    <div class='project-completed'>
+                      <strong>Completed</strong>: {{ page.dateCompleted }}
+                    </div>
+                  {% endif %}
                   {% if page.website %}
                     <a href="{{page.website}}" class='button primary medium fullwidth'>See project</a>
                   {% endif %}

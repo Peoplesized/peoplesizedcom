@@ -2,7 +2,7 @@
 title: Equator Principles Association
 date: 2017-09-02 00:00:00 Z
 layout: post
-status: Live
+status: Complete
 dateCompleted: '2016-10-15'
 imageUrl: emmad-mazhari-216134.jpg
 website: 

@@ -170,3 +170,254 @@ mark {
     padding: 10px;
     text-align: center;
 }
+
+/* Manifesto page styles */
+#section-manifesto {
+    .manifesto-content {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 60px 0;
+
+        .principle {
+            margin-bottom: 40px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 8px;
+            border-left: 4px solid #3498DB;
+
+            h3 {
+                font-size: 24px;
+                font-weight: 600;
+                margin-bottom: 15px;
+                color: #2c3e50;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 1.7;
+                color: #444;
+                margin: 0;
+            }
+        }
+    }
+
+    .manifesto-footer {
+        margin-top: 60px;
+        padding-top: 40px;
+        border-top: 1px solid #ddd;
+
+        p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 15px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        a {
+            color: #3498DB;
+            text-decoration: none;
+            font-weight: 500;
+
+            &:hover {
+                color: #3486BC;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+/* Archive page styles */
+#section-archive {
+    .archive-intro {
+        max-width: 700px;
+        margin: 0 auto 50px auto;
+        font-size: 18px;
+        line-height: 1.6;
+        color: #555;
+        text-align: center;
+    }
+
+    .projects-list {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .project-entry {
+        margin-bottom: 40px;
+        padding: 25px;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 8px;
+        border: 1px solid #e0e0e0;
+        transition: box-shadow 0.2s ease;
+        display: flex;
+        gap: 20px;
+
+        &:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-thumbnail {
+            flex-shrink: 0;
+            width: 120px;
+
+            img {
+                width: 100%;
+                height: 80px;
+                object-fit: cover;
+                border-radius: 6px;
+                border: 1px solid #ddd;
+            }
+        }
+
+        .project-content {
+            flex: 1;
+        }
+
+        .project-meta {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 10px;
+
+            time {
+                font-family: monospace;
+                font-size: 14px;
+                color: #666;
+                background: #f5f5f5;
+                padding: 4px 8px;
+                border-radius: 4px;
+            }
+
+            .status {
+                font-size: 12px;
+                padding: 4px 8px;
+                border-radius: 12px;
+                text-transform: uppercase;
+                font-weight: 600;
+
+                &.status-complete { background: #d4edda; color: #155724; }
+                &.status-live { background: #d1ecf1; color: #0c5460; }
+                &.status-concept { background: #e2e3e5; color: #6c757d; }
+                &.status-in-development { background: #fff3cd; color: #856404; }
+            }
+        }
+
+        .project-title {
+            margin-bottom: 10px;
+
+            a {
+                color: #2c3e50;
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: 600;
+
+                &:hover {
+                    color: #3498DB;
+                }
+            }
+        }
+
+        .project-excerpt {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .project-link a {
+            color: #3498DB;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+
+            &:hover {
+                color: #3486BC;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .archive-footer {
+        text-align: center;
+        margin-top: 60px;
+        padding-top: 40px;
+        border-top: 1px solid #ddd;
+
+        a {
+            color: #3498DB;
+            text-decoration: none;
+            font-weight: 500;
+
+            &:hover {
+                color: #3486BC;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+/* Post detail page styles - match archive styling */
+.project-meta-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e0e0e0;
+
+    time {
+        font-family: monospace;
+        font-size: 14px;
+        color: #666;
+        background: #f5f5f5;
+        padding: 4px 8px;
+        border-radius: 4px;
+    }
+
+    .status {
+        font-size: 12px;
+        padding: 4px 8px;
+        border-radius: 12px;
+        text-transform: uppercase;
+        font-weight: 600;
+
+        &.status-complete { background: #d4edda; color: #155724; }
+        &.status-live { background: #d1ecf1; color: #0c5460; }
+        &.status-concept { background: #e2e3e5; color: #6c757d; }
+        &.status-in-development { background: #fff3cd; color: #856404; }
+        &.status-closed { background: #f8d7da; color: #721c24; }
+    }
+}
+
+.project-completed {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Clean up header for new minimal design */
+.section#section-manifesto,
+.section#section-archive {
+    background-image: none;
+    background-color: #f8f9fa;
+
+    .section-header {
+        margin-bottom: 50px;
+
+        h1 {
+            font-size: 48px;
+            font-weight: 300;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .lead {
+            font-size: 20px;
+            color: #666;
+            font-weight: 400;
+            font-variant: normal;
+        }
+    }
+}

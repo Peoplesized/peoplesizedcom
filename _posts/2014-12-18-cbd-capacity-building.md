@@ -7,7 +7,7 @@ createdAt: 2014-12-18 12:02:52.019000000 Z
 updatedAt: 2015-03-03 11:11:37.074000000 Z
 imageId: 1aB2abZ7isUOagIumqCOQy
 website: http://www.cbd.int
-status: Live
+status: Complete
 dateCompleted: '2015-01-31'
 imageUrl: Screenshot_2014-12-18_12.00.53.png
 ---

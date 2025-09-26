@@ -7,7 +7,7 @@ createdAt: 2014-12-17 12:33:27.794000000 Z
 updatedAt: 2014-12-18 14:49:56.806000000 Z
 imageId: 3Jwig9lJo4u4keUGa80mek
 website: http://ghana.nrt.io
-status: Live
+status: Complete
 dateCompleted: '2014-04-30'
 imageUrl: Screenshot_2014-11-18_12.32.00.png
 ---
