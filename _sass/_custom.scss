@@ -174,27 +174,31 @@ mark {
 /* Manifesto page styles */
 #section-manifesto {
     .manifesto-content {
-        max-width: 800px;
+        max-width: 700px;
         margin: 0 auto;
-        padding: 60px 0;
+        padding: 40px 30px;
+        background: rgba(255, 255, 255, 0.18);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 12px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
 
         .principle {
-            margin-bottom: 40px;
-            padding: 30px;
-            background: rgba(255, 255, 255, 0.7);
-            border-radius: 8px;
-            border-left: 4px solid #3498DB;
+            margin-bottom: 35px;
+            padding: 0;
+            background: none;
+            border: none;
 
             h3 {
-                font-size: 24px;
+                font-size: 22px;
                 font-weight: 600;
-                margin-bottom: 15px;
+                margin-bottom: 12px;
                 color: #2c3e50;
             }
 
             p {
-                font-size: 16px;
-                line-height: 1.7;
+                font-size: 17px;
+                line-height: 1.6;
                 color: #444;
                 margin: 0;
             }
@@ -425,8 +429,52 @@ mark {
     }
 }
 
+/* Make site header translucent on manifesto page */
+body.manifesto-page #site-header.header.section.light {
+    background-color: rgba(255, 255, 255, 0.18) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Extend background image to full page on manifesto page */
+body.manifesto-page {
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
 /* Clean up header for new minimal design */
-.section#section-manifesto,
+.section#section-manifesto {
+    background: none;
+
+    .section-header {
+        margin-bottom: 50px;
+        padding: 30px;
+        background: rgba(255, 255, 255, 0.18);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 12px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+        h1 {
+            font-size: 48px;
+            font-weight: 300;
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .lead {
+            font-size: 20px;
+            color: #555;
+            font-weight: 400;
+            font-variant: normal;
+        }
+    }
+}
+
 .section#section-archive {
     background-image: none;
     background-color: #f8f9fa;
@@ -486,20 +534,19 @@ body {
         }
 
         .manifesto-content {
-            padding: 30px 0;
+            padding: 25px 0;
 
             .principle {
-                margin-bottom: 25px;
-                padding: 20px;
-                border-radius: 6px;
+                margin-bottom: 30px;
+                padding: 0;
 
                 h3 {
                     font-size: 20px;
-                    margin-bottom: 12px;
+                    margin-bottom: 10px;
                 }
 
                 p {
-                    font-size: 15px;
+                    font-size: 16px;
                     line-height: 1.6;
                 }
             }
