@@ -15,62 +15,63 @@ image_root_url: http://res.cloudinary.com/ppls/image/upload/
 image_account: peoplesizedcom/
 host: 0.0.0.0
 permalink: "/:year/:title.html"
-gems:
-- jekyll-coffeescript
-- jekyll-sitemap
+plugins:
+  - jekyll-coffeescript
+  - jekyll-sitemap
 exclude:
-- _data
+  - _data
 email: hello@peoplesized.com
-description: Peoplesized build and manage good things for the environment, public
+description:
+  Peoplesized build and manage good things for the environment, public
   health and social development.
 keywords:
-- environment
-- public health
-- social development
-- malaria
-- technology
-- software
-- africa
-- policy
-- research
-- analysis
-baseurl: ''
+  - environment
+  - public health
+  - social development
+  - malaria
+  - technology
+  - software
+  - africa
+  - policy
+  - research
+  - analysis
+baseurl: ""
 url: https://www.peoplesized.com
 markdown: kramdown
 prose:
   rooturl: _posts
   metadata:
     _posts:
-    - name: layout
-      field:
-        element: hidden
-        value: post
-        label: Layout (can leave this)
-    - name: title
-      field:
-        element: text
-        label: title
-    - name: status
-      field:
-        label: Status
-        element: select
-        options:
-        - value: Concept
-        - value: In development
-        - value: Live
-        - value: Complete
-    - name: dateCompleted
-      field:
-        element: text
-        placeholder: YYYY-MM-DD
-        label: Date - either last update, or completed date.
-    - name: imageUrl
-      field:
-        element: text
-        placeholder: e.g. 'csbi-website-update'
-        label: Image filename from Cloudinary (help at http://peoplesized.com/upload)
-    - name: website
-      field:
-        element: text
-        placeholder: Full URL (incl. "http://")
-        label: Website or link for project (incl. "http://")
+      - name: layout
+        field:
+          element: hidden
+          value: post
+          label: Layout (can leave this)
+      - name: title
+        field:
+          element: text
+          label: title
+      - name: status
+        field:
+          label: Status
+          element: select
+          options:
+            - value: Concept
+            - value: In development
+            - value: Live
+            - value: Complete
+      - name: dateCompleted
+        field:
+          element: text
+          placeholder: YYYY-MM-DD
+          label: Date - either last update, or completed date.
+      - name: imageUrl
+        field:
+          element: text
+          placeholder: e.g. 'csbi-website-update'
+          label: Image filename from Cloudinary (help at http://peoplesized.com/upload)
+      - name: website
+        field:
+          element: text
+          placeholder: Full URL (incl. "http://")
+          label: Website or link for project (incl. "http://")

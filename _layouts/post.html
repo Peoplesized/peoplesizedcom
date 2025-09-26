@@ -3,33 +3,25 @@ layout: default
 ---
 
 <div id='main' class='main'>
-  <section class='page-title section dark'>
-    <div class='container'>
-      <div class='row'>
-        <div class='col-9'>
-          <header class='section-header content-header'>
-            <h1 class='title'>
-              {{ page.title }}
-            </h1>
-          </header>
-        </div>
-        <div class='col-27'></div>
-      </div>
-    </div>
-  </section>
   <section class='section light' id='main-content'>
     <div class='container'>
       <div class='section-content row'>
         <div class='col-1' id='primary'>
           <article class='single-project'>
+            <nav class='project-nav'>
+              <a href='/archive.html' class='back-to-archive'>← Back to Archive</a>
+            </nav>
+            <header class='project-header'>
+              <h1 class='project-title'>{{ page.title }}</h1>
+            </header>
             <div class='row'>
-              <div class='col-9'>
+              <div class='col-12'>
                 <div class='project-images'>
                   <img src="{{ '/images/' | append: page.imageUrl | relative_url }}">
                 </div>
               </div>
-              <div class='col-27'>
-                <div class='project-summary'>
+              <div class='col-24'>
+                <div class='project-summary project-content-large'>
                   {{ page.content | markdownify }}
                 </div>
                 <div class='project-meta-footer'>

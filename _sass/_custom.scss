@@ -310,7 +310,7 @@ mark {
             margin-bottom: 10px;
             color: #2c3e50;
             font-size: 20px;
-            font-weight: 600;
+            font-weight: 300;
         }
 
         .project-year {
@@ -328,8 +328,9 @@ mark {
 
         .project-excerpt {
             color: #555;
-            line-height: 1.6;
+            line-height: 1.7;
             margin-bottom: 15px;
+            font-size: 16px;
         }
 
         .project-link span {
@@ -359,6 +360,49 @@ mark {
 }
 
 /* Post detail page styles */
+.single-project {
+    padding: 40px;
+}
+
+.project-nav {
+    margin-bottom: 20px;
+
+    .back-to-archive {
+        color: #3498DB;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+
+        &:hover {
+            color: #3486BC;
+            text-decoration: underline;
+        }
+    }
+}
+
+.project-header {
+    margin-bottom: 30px;
+
+    .project-title {
+        font-size: 46px;
+        font-weight: 300;
+        color: #2c3e50;
+        margin-bottom: 0;
+    }
+}
+
+.project-content-large {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #444;
+
+    p {
+        font-size: 18px;
+        line-height: 1.7;
+        margin-bottom: 20px;
+    }
+}
+
 .project-meta-footer {
     display: flex;
     align-items: center;
